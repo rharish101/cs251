@@ -1,0 +1,44 @@
+\documentclass{article}
+\usepackage[top=1cm,bottom=2cm]{geometry}
+\usepackage{graphicx}
+\begin{document}
+    \begin{figure}
+        \textbf{Scatter Graphs}\\\\
+        This is a scatter graph of time taken vs no. of elements for single thread execution.\\
+        \input{threads_1}
+    \end{figure}
+    \begin{figure}
+        This is a scatter graph of time taken vs no. of elements for execution by 2 threads.\\
+        \input{threads_2}
+    \end{figure}
+    \begin{figure}
+        This is a scatter graph of time taken vs no. of elements for execution by 4 threads.\\
+        \input{threads_4}
+    \end{figure}
+    \begin{figure}
+        This is a scatter graph of time taken vs no. of elements for execution by 8 threads.\\
+        \input{threads_8}
+    \end{figure}
+    \begin{figure}
+        This is a scatter graph of time taken vs no. of elements for execution by 16 threads.\\
+        \input{threads_16}
+    \end{figure}
+
+    \begin{figure}
+        \textbf{Average Execution Time}\\\\
+        This is a line graph comparing no. of threads by average time taken vs. no of elements.\\
+        \input{threads_avg}
+    \end{figure}
+
+    \begin{figure}
+        \textbf{Average Speedup}\\\\
+        This is a bar graph comparing no. of threads by average speedup (wrt single thread) vs. no of elements.\\
+        \input{threads_spd}
+    \end{figure}
+
+    \begin{figure}
+        \textbf{Average Speedup with Errors}\\\\
+        This is a bar graph comparing no. of threads by average speedup (wrt single thread) vs. no of elements, with error bars denoting variance.\\
+        \input{threads_spd_err}
+    \end{figure}
+\end{document}

@@ -1,0 +1,722 @@
+USER       PID  PPID   LWP    SZ   RSS START     TIME CMD
+root         1     0     1 58501  8916 11:57 00:00:02 /sbin/init splash
+root         2     0     2     0     0 11:57 00:00:00 [kthreadd]
+root         4     2     4     0     0 11:57 00:00:00 [kworker/0:0H]
+root         6     2     6     0     0 11:57 00:00:00 [mm_percpu_wq]
+root         7     2     7     0     0 11:57 00:00:00 [ksoftirqd/0]
+root         8     2     8     0     0 11:57 00:00:03 [rcu_preempt]
+root         9     2     9     0     0 11:57 00:00:00 [rcu_sched]
+root        10     2    10     0     0 11:57 00:00:00 [rcu_bh]
+root        11     2    11     0     0 11:57 00:00:00 [rcuc/0]
+root        12     2    12     0     0 11:57 00:00:00 [rcub/0]
+root        13     2    13     0     0 11:57 00:00:00 [migration/0]
+root        14     2    14     0     0 11:57 00:00:00 [watchdog/0]
+root        15     2    15     0     0 11:57 00:00:00 [cpuhp/0]
+root        16     2    16     0     0 11:57 00:00:00 [cpuhp/1]
+root        17     2    17     0     0 11:57 00:00:00 [watchdog/1]
+root        18     2    18     0     0 11:57 00:00:00 [migration/1]
+root        19     2    19     0     0 11:57 00:00:00 [rcuc/1]
+root        20     2    20     0     0 11:57 00:00:00 [ksoftirqd/1]
+root        22     2    22     0     0 11:57 00:00:00 [kworker/1:0H]
+root        23     2    23     0     0 11:57 00:00:00 [cpuhp/2]
+root        24     2    24     0     0 11:57 00:00:00 [watchdog/2]
+root        25     2    25     0     0 11:57 00:00:00 [migration/2]
+root        26     2    26     0     0 11:57 00:00:00 [rcuc/2]
+root        27     2    27     0     0 11:57 00:00:00 [ksoftirqd/2]
+root        29     2    29     0     0 11:57 00:00:00 [kworker/2:0H]
+root        30     2    30     0     0 11:57 00:00:00 [cpuhp/3]
+root        31     2    31     0     0 11:57 00:00:00 [watchdog/3]
+root        32     2    32     0     0 11:57 00:00:00 [migration/3]
+root        33     2    33     0     0 11:57 00:00:00 [rcuc/3]
+root        34     2    34     0     0 11:57 00:00:00 [ksoftirqd/3]
+root        36     2    36     0     0 11:57 00:00:00 [kworker/3:0H]
+root        37     2    37     0     0 11:57 00:00:00 [cpuhp/4]
+root        38     2    38     0     0 11:57 00:00:00 [watchdog/4]
+root        39     2    39     0     0 11:57 00:00:00 [migration/4]
+root        40     2    40     0     0 11:57 00:00:00 [rcuc/4]
+root        41     2    41     0     0 11:57 00:00:00 [ksoftirqd/4]
+root        43     2    43     0     0 11:57 00:00:00 [kworker/4:0H]
+root        44     2    44     0     0 11:57 00:00:00 [cpuhp/5]
+root        45     2    45     0     0 11:57 00:00:00 [watchdog/5]
+root        46     2    46     0     0 11:57 00:00:00 [migration/5]
+root        47     2    47     0     0 11:57 00:00:00 [rcuc/5]
+root        48     2    48     0     0 11:57 00:00:00 [ksoftirqd/5]
+root        50     2    50     0     0 11:57 00:00:00 [kworker/5:0H]
+root        51     2    51     0     0 11:57 00:00:00 [cpuhp/6]
+root        52     2    52     0     0 11:57 00:00:00 [watchdog/6]
+root        53     2    53     0     0 11:57 00:00:00 [migration/6]
+root        54     2    54     0     0 11:57 00:00:00 [rcuc/6]
+root        55     2    55     0     0 11:57 00:00:00 [ksoftirqd/6]
+root        57     2    57     0     0 11:57 00:00:00 [kworker/6:0H]
+root        58     2    58     0     0 11:57 00:00:00 [cpuhp/7]
+root        59     2    59     0     0 11:57 00:00:00 [watchdog/7]
+root        60     2    60     0     0 11:57 00:00:00 [migration/7]
+root        61     2    61     0     0 11:57 00:00:00 [rcuc/7]
+root        62     2    62     0     0 11:57 00:00:00 [ksoftirqd/7]
+root        64     2    64     0     0 11:57 00:00:00 [kworker/7:0H]
+root        65     2    65     0     0 11:57 00:00:00 [kdevtmpfs]
+root        66     2    66     0     0 11:57 00:00:00 [netns]
+root        67     2    67     0     0 11:57 00:00:00 [rcu_tasks_kthre]
+root        69     2    69     0     0 11:57 00:00:00 [kworker/1:1]
+root        71     2    71     0     0 11:57 00:00:00 [khungtaskd]
+root        72     2    72     0     0 11:57 00:00:00 [oom_reaper]
+root        73     2    73     0     0 11:57 00:00:00 [writeback]
+root        74     2    74     0     0 11:57 00:00:00 [kcompactd0]
+root        75     2    75     0     0 11:57 00:00:00 [ksmd]
+root        76     2    76     0     0 11:57 00:00:00 [khugepaged]
+root        77     2    77     0     0 11:57 00:00:00 [crypto]
+root        78     2    78     0     0 11:57 00:00:00 [kintegrityd]
+root        79     2    79     0     0 11:57 00:00:00 [kblockd]
+root        81     2    81     0     0 11:57 00:00:00 [kworker/7:1]
+root        82     2    82     0     0 11:57 00:00:00 [kworker/2:1]
+root        85     2    85     0     0 11:57 00:00:00 [edac-poller]
+root        86     2    86     0     0 11:57 00:00:00 [devfreq_wq]
+root        87     2    87     0     0 11:57 00:00:00 [watchdogd]
+root        89     2    89     0     0 11:57 00:00:00 [kswapd0]
+root       128     2   128     0     0 11:57 00:00:00 [kthrotld]
+root       129     2   129     0     0 11:57 00:00:00 [acpi_thermal_pm]
+root       130     2   130     0     0 11:57 00:00:00 [nvme-wq]
+root       131     2   131     0     0 11:57 00:00:00 [ipv6_addrconf]
+root       140     2   140     0     0 11:57 00:00:00 [kstrp]
+root       149     2   149     0     0 11:57 00:00:00 [charger_manager]
+root       168     2   168     0     0 11:57 00:00:00 [kworker/u17:0]
+root       169     2   169     0     0 11:57 00:00:00 [i915/signal:0]
+root       170     2   170     0     0 11:57 00:00:00 [i915/signal:1]
+root       171     2   171     0     0 11:57 00:00:00 [i915/signal:2]
+root       172     2   172     0     0 11:57 00:00:00 [i915/signal:4]
+root       191     2   191     0     0 11:57 00:00:00 [nvidia-modeset]
+root       193     2   193     0     0 11:57 00:00:00 [UVM global queu]
+root       195     2   195     0     0 11:57 00:00:00 [UVM Tools Event]
+root       226     2   226     0     0 11:57 00:00:00 [ata_sff]
+root       229     2   229     0     0 11:57 00:00:00 [scsi_eh_0]
+root       230     2   230     0     0 11:57 00:00:00 [scsi_tmf_0]
+root       231     2   231     0     0 11:57 00:00:00 [scsi_eh_1]
+root       232     2   232     0     0 11:57 00:00:00 [scsi_tmf_1]
+root       233     2   233     0     0 11:57 00:00:00 [scsi_eh_2]
+root       234     2   234     0     0 11:57 00:00:00 [scsi_tmf_2]
+root       238     2   238     0     0 11:57 00:00:00 [kworker/2:1H]
+root       241     2   241     0     0 11:57 00:00:00 [kworker/3:1H]
+root       257     2   257     0     0 11:57 00:00:00 [jbd2/sdb7-8]
+root       258     2   258     0     0 11:57 00:00:00 [ext4-rsv-conver]
+root       287     1   287 25355 18948 11:57 00:00:00 /usr/lib/systemd/systemd-journald
+root       293     2   293     0     0 11:57 00:00:00 [kworker/5:1H]
+root       297     1   297 22042  1452 11:57 00:00:00 /usr/bin/lvmetad -f
+root       302     1   302 22257  8500 11:57 00:00:00 /usr/lib/systemd/systemd-udevd
+root       317     2   317     0     0 11:57 00:00:00 [kworker/0:1H]
+root       334     2   334     0     0 11:57 00:00:00 [kworker/1:1H]
+root       339     2   339     0     0 11:57 00:00:00 [irq/129-mei_me]
+root       341     2   341     0     0 11:57 00:00:00 [kworker/7:1H]
+root       342     2   342     0     0 11:57 00:00:00 [kworker/6:1H]
+root       352     2   352     0     0 11:57 00:00:00 [kmemstick]
+root       353     2   353     0     0 11:57 00:00:00 [kworker/4:1H]
+root       368     2   368     0     0 11:57 00:00:00 [led_workqueue]
+root       386     2   386     0     0 11:57 00:00:00 [cfg80211]
+root       448     2   448     0     0 11:57 00:00:05 [irq/132-iwlwifi]
+root       484     2   484     0     0 11:57 00:00:00 [pktcdvd0]
+root       489     2   489     0     0 11:57 00:00:07 [irq/95-ELAN1000]
+root       501     2   501     0     0 11:57 00:00:00 [kworker/u17:1]
+root       612     1   612  3833  2624 11:57 00:00:00 /sbin/mount.ntfs /dev/sdb3 /mnt/OS -o rw,nosuid,nodev,relatime,uid=1000,gid=1000,allow_other,dmask=000,fmask=022
+root       648     1   648  4049  3308 11:57 00:00:02 /sbin/mount.ntfs /dev/sda1 /mnt/Data -o rw,nosuid,nodev,relatime,uid=1000,gid=1000,allow_other,dmask=000,fmask=022
+systemd+   651     1   651 38701  3968 11:57 00:00:00 /usr/lib/systemd/systemd-timesyncd
+systemd+   651     1   660 38701  3968 11:57 00:00:00 /usr/lib/systemd/systemd-timesyncd
+root       655     1   655  3290  2828 11:57 00:00:00 /usr/bin/crond -n
+root       658     1   658 17610  5712 11:57 00:00:00 /usr/lib/systemd/systemd-logind
+dbus       659     1   659  8476  4696 11:57 00:00:04 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root       671     1   671 38398  5352 11:57 00:00:27 /usr/bin/xboxdrv --daemon --detach --pid-file /var/run/xboxdrv.pid -c /etc/default/xboxdrv --detach-kernel-driver --deadzone 4000 --deadzone-trigger 10%
+root       671     1   674 38398  5352 11:57 00:00:00 /usr/bin/xboxdrv --daemon --detach --pid-file /var/run/xboxdrv.pid -c /etc/default/xboxdrv --detach-kernel-driver --deadzone 4000 --deadzone-trigger 10%
+root       684     1   684 114858 18676 11:57 00:00:01 /usr/bin/NetworkManager --no-daemon
+root       684     1   694 114858 18676 11:57 00:00:00 /usr/bin/NetworkManager --no-daemon
+root       684     1   696 114858 18676 11:57 00:00:00 /usr/bin/NetworkManager --no-daemon
+root       702     1   702 24522  8616 11:57 00:00:00 /usr/bin/cupsd -l
+root       703     1   703 878254 64204 11:57 00:00:01 /usr/bin/dockerd -H fd://
+root       703     1   714 878254 64204 11:57 00:00:02 /usr/bin/dockerd -H fd://
+root       703     1   715 878254 64204 11:57 00:00:00 /usr/bin/dockerd -H fd://
+root       703     1   716 878254 64204 11:57 00:00:00 /usr/bin/dockerd -H fd://
+root       703     1   717 878254 64204 11:57 00:00:00 /usr/bin/dockerd -H fd://
+root       703     1   718 878254 64204 11:57 00:00:01 /usr/bin/dockerd -H fd://
+root       703     1   719 878254 64204 11:57 00:00:01 /usr/bin/dockerd -H fd://
+root       703     1   720 878254 64204 11:57 00:00:00 /usr/bin/dockerd -H fd://
+root       703     1   721 878254 64204 11:57 00:00:00 /usr/bin/dockerd -H fd://
+root       703     1   722 878254 64204 11:57 00:00:01 /usr/bin/dockerd -H fd://
+root       703     1   723 878254 64204 11:57 00:00:00 /usr/bin/dockerd -H fd://
+root       703     1   762 878254 64204 11:57 00:00:00 /usr/bin/dockerd -H fd://
+root       703     1   763 878254 64204 11:57 00:00:00 /usr/bin/dockerd -H fd://
+root       703     1   768 878254 64204 11:57 00:00:00 /usr/bin/dockerd -H fd://
+root       703     1   780 878254 64204 11:57 00:00:00 /usr/bin/dockerd -H fd://
+root       703     1   781 878254 64204 11:57 00:00:00 /usr/bin/dockerd -H fd://
+root       703     1   782 878254 64204 11:57 00:00:00 /usr/bin/dockerd -H fd://
+root       703     1   783 878254 64204 11:57 00:00:00 /usr/bin/dockerd -H fd://
+root       703     1   784 878254 64204 11:57 00:00:01 /usr/bin/dockerd -H fd://
+root       703     1   785 878254 64204 11:57 00:00:00 /usr/bin/dockerd -H fd://
+root       703     1   786 878254 64204 11:57 00:00:00 /usr/bin/dockerd -H fd://
+root       703     1   787 878254 64204 11:57 00:00:01 /usr/bin/dockerd -H fd://
+root       703     1   788 878254 64204 11:57 00:00:00 /usr/bin/dockerd -H fd://
+root       703     1   789 878254 64204 11:57 00:00:01 /usr/bin/dockerd -H fd://
+root       703     1   790 878254 64204 11:57 00:00:00 /usr/bin/dockerd -H fd://
+root       703     1   791 878254 64204 11:57 00:00:00 /usr/bin/dockerd -H fd://
+root       703     1   792 878254 64204 11:57 00:00:00 /usr/bin/dockerd -H fd://
+root       703     1   793 878254 64204 11:57 00:00:00 /usr/bin/dockerd -H fd://
+root       703     1   794 878254 64204 11:57 00:00:00 /usr/bin/dockerd -H fd://
+root       703     1   795 878254 64204 11:57 00:00:00 /usr/bin/dockerd -H fd://
+root       703     1   796 878254 64204 11:57 00:00:00 /usr/bin/dockerd -H fd://
+root       703     1   797 878254 64204 11:57 00:00:01 /usr/bin/dockerd -H fd://
+root       703     1   798 878254 64204 11:57 00:00:00 /usr/bin/dockerd -H fd://
+root       703     1   799 878254 64204 11:57 00:00:01 /usr/bin/dockerd -H fd://
+root       703     1   800 878254 64204 11:57 00:00:00 /usr/bin/dockerd -H fd://
+root       703     1   801 878254 64204 11:57 00:00:01 /usr/bin/dockerd -H fd://
+root       703     1   802 878254 64204 11:57 00:00:00 /usr/bin/dockerd -H fd://
+root       703     1   803 878254 64204 11:57 00:00:01 /usr/bin/dockerd -H fd://
+root       703     1   804 878254 64204 11:57 00:00:00 /usr/bin/dockerd -H fd://
+root       703     1   805 878254 64204 11:57 00:00:00 /usr/bin/dockerd -H fd://
+root       703     1   806 878254 64204 11:57 00:00:00 /usr/bin/dockerd -H fd://
+root       703     1   807 878254 64204 11:57 00:00:00 /usr/bin/dockerd -H fd://
+root       703     1   808 878254 64204 11:57 00:00:00 /usr/bin/dockerd -H fd://
+root       703     1   809 878254 64204 11:57 00:00:00 /usr/bin/dockerd -H fd://
+root       703     1   810 878254 64204 11:57 00:00:00 /usr/bin/dockerd -H fd://
+root       703     1   811 878254 64204 11:57 00:00:00 /usr/bin/dockerd -H fd://
+root       703     1   812 878254 64204 11:57 00:00:00 /usr/bin/dockerd -H fd://
+colord     705     1   705 77382 13136 11:57 00:00:00 /usr/lib/colord
+colord     705     1   709 77382 13136 11:57 00:00:00 /usr/lib/colord
+colord     705     1   711 77382 13136 11:57 00:00:00 /usr/lib/colord
+root       724   703   724 360531 22828 11:57 00:00:00 docker-containerd --config /var/run/docker/containerd/containerd.toml
+root       724   703   726 360531 22828 11:57 00:00:01 docker-containerd --config /var/run/docker/containerd/containerd.toml
+root       724   703   727 360531 22828 11:57 00:00:00 docker-containerd --config /var/run/docker/containerd/containerd.toml
+root       724   703   728 360531 22828 11:57 00:00:00 docker-containerd --config /var/run/docker/containerd/containerd.toml
+root       724   703   729 360531 22828 11:57 00:00:00 docker-containerd --config /var/run/docker/containerd/containerd.toml
+root       724   703   730 360531 22828 11:57 00:00:01 docker-containerd --config /var/run/docker/containerd/containerd.toml
+root       724   703   731 360531 22828 11:57 00:00:01 docker-containerd --config /var/run/docker/containerd/containerd.toml
+root       724   703   739 360531 22828 11:57 00:00:00 docker-containerd --config /var/run/docker/containerd/containerd.toml
+root       724   703   740 360531 22828 11:57 00:00:00 docker-containerd --config /var/run/docker/containerd/containerd.toml
+root       724   703   741 360531 22828 11:57 00:00:01 docker-containerd --config /var/run/docker/containerd/containerd.toml
+root       724   703   813 360531 22828 11:57 00:00:01 docker-containerd --config /var/run/docker/containerd/containerd.toml
+root       724   703   814 360531 22828 11:57 00:00:01 docker-containerd --config /var/run/docker/containerd/containerd.toml
+root       724   703   815 360531 22828 11:57 00:00:01 docker-containerd --config /var/run/docker/containerd/containerd.toml
+root       724   703   816 360531 22828 11:57 00:00:00 docker-containerd --config /var/run/docker/containerd/containerd.toml
+root       724   703  2655 360531 22828 12:03 00:00:00 docker-containerd --config /var/run/docker/containerd/containerd.toml
+root       724   703  3371 360531 22828 12:11 00:00:00 docker-containerd --config /var/run/docker/containerd/containerd.toml
+root       724   703 10023 360531 22828 13:04 00:00:00 docker-containerd --config /var/run/docker/containerd/containerd.toml
+root       724   703 13574 360531 22828 13:32 00:00:00 docker-containerd --config /var/run/docker/containerd/containerd.toml
+root       724   703 16475 360531 22828 13:58 00:00:00 docker-containerd --config /var/run/docker/containerd/containerd.toml
+root       724   703 20121 360531 22828 14:30 00:00:00 docker-containerd --config /var/run/docker/containerd/containerd.toml
+root       732     1   732 71661  7328 11:57 00:00:00 /usr/bin/gdm
+root       732     1   734 71661  7328 11:57 00:00:00 /usr/bin/gdm
+root       732     1   735 71661  7328 11:57 00:00:00 /usr/bin/gdm
+root       743     1   743 69558  7220 11:57 00:00:00 /usr/lib/accountsservice/accounts-daemon
+root       743     1   744 69558  7220 11:57 00:00:00 /usr/lib/accountsservice/accounts-daemon
+root       743     1   746 69558  7220 11:57 00:00:00 /usr/lib/accountsservice/accounts-daemon
+polkitd    747     1   747 132048 16560 11:57 00:00:00 /usr/lib/polkit-1/polkitd --no-debug
+polkitd    747     1   748 132048 16560 11:57 00:00:00 /usr/lib/polkit-1/polkitd --no-debug
+polkitd    747     1   749 132048 16560 11:57 00:00:01 /usr/lib/polkit-1/polkitd --no-debug
+polkitd    747     1   750 132048 16560 11:57 00:00:00 /usr/lib/polkit-1/polkitd --no-debug
+polkitd    747     1   751 132048 16560 11:57 00:00:00 /usr/lib/polkit-1/polkitd --no-debug
+polkitd    747     1   752 132048 16560 11:57 00:00:00 /usr/lib/polkit-1/polkitd --no-debug
+root       754   732   754 63584  8972 11:57 00:00:00 gdm-session-worker [pam/gdm-launch-environment]
+root       754   732   755 63584  8972 11:57 00:00:00 gdm-session-worker [pam/gdm-launch-environment]
+root       754   732   756 63584  8972 11:57 00:00:00 gdm-session-worker [pam/gdm-launch-environment]
+gdm        761     1   761 19666  8004 11:57 00:00:00 /usr/lib/systemd/systemd --user
+gdm        764   761   764 35753  2424 11:57 00:00:00 (sd-pam)
+gdm        770   754   770 50325  5420 11:57 00:00:00 /usr/lib/gdm/gdm-x-session gnome-session --autostart /usr/share/gdm/greeter/autostart
+gdm        770   754   771 50325  5420 11:57 00:00:00 /usr/lib/gdm/gdm-x-session gnome-session --autostart /usr/share/gdm/greeter/autostart
+gdm        770   754   941 50325  5420 11:57 00:00:00 /usr/lib/gdm/gdm-x-session gnome-session --autostart /usr/share/gdm/greeter/autostart
+root       772   770   772 87993 74236 11:57 00:00:01 /usr/lib/xorg-server/Xorg vt1 -displayfd 3 -auth /run/user/120/gdm/Xauthority -nolisten tcp -background none -noreset -keeptty -verbose 3
+root       772   770   939 87993 74236 11:57 00:00:00 /usr/lib/xorg-server/Xorg vt1 -displayfd 3 -auth /run/user/120/gdm/Xauthority -nolisten tcp -background none -noreset -keeptty -verbose 3
+root       774     2   774     0     0 11:57 00:00:32 [irq/133-nvidia]
+root       775     2   775     0     0 11:57 00:00:00 [nvidia]
+root       777     1   777  9699  6672 11:57 00:00:00 /usr/bin/wpa_supplicant -u
+gdm        940   761   940  8192  3908 11:57 00:00:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+gdm        942   770   942 137011 13336 11:57 00:00:00 /usr/lib/gnome-session-binary --autostart /usr/share/gdm/greeter/autostart
+gdm        942   770   957 137011 13336 11:57 00:00:00 /usr/lib/gnome-session-binary --autostart /usr/share/gdm/greeter/autostart
+gdm        942   770   958 137011 13336 11:57 00:00:00 /usr/lib/gnome-session-binary --autostart /usr/share/gdm/greeter/autostart
+gdm        942   770   960 137011 13336 11:57 00:00:00 /usr/lib/gnome-session-binary --autostart /usr/share/gdm/greeter/autostart
+gdm        946   761   946 86213  5764 11:57 00:00:00 /usr/lib/at-spi-bus-launcher
+gdm        946   761   947 86213  5764 11:57 00:00:00 /usr/lib/at-spi-bus-launcher
+gdm        946   761   948 86213  5764 11:57 00:00:00 /usr/lib/at-spi-bus-launcher
+gdm        946   761   950 86213  5764 11:57 00:00:00 /usr/lib/at-spi-bus-launcher
+gdm        951   946   951  8113  3020 11:57 00:00:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+gdm        953   761   953 54614  5948 11:57 00:00:00 /usr/lib/at-spi2-registryd --use-gnome-session
+gdm        953   761   955 54614  5948 11:57 00:00:00 /usr/lib/at-spi2-registryd --use-gnome-session
+gdm        953   761   956 54614  5948 11:57 00:00:00 /usr/lib/at-spi2-registryd --use-gnome-session
+gdm        961   942   961 942257 155132 11:57 00:00:05 /usr/bin/gnome-shell
+gdm        961   942   964 942257 155132 11:57 00:00:00 /usr/bin/gnome-shell
+gdm        961   942   965 942257 155132 11:57 00:00:00 /usr/bin/gnome-shell
+gdm        961   942   966 942257 155132 11:57 00:00:00 /usr/bin/gnome-shell
+gdm        961   942   988 942257 155132 11:57 00:00:00 /usr/bin/gnome-shell
+gdm        961   942   995 942257 155132 11:57 00:00:00 /usr/bin/gnome-shell
+gdm        961   942   996 942257 155132 11:57 00:00:00 /usr/bin/gnome-shell
+gdm        961   942   997 942257 155132 11:57 00:00:00 /usr/bin/gnome-shell
+gdm        961   942   998 942257 155132 11:57 00:00:00 /usr/bin/gnome-shell
+gdm        961   942   999 942257 155132 11:57 00:00:00 /usr/bin/gnome-shell
+gdm        961   942  1000 942257 155132 11:57 00:00:00 /usr/bin/gnome-shell
+gdm        961   942  1001 942257 155132 11:57 00:00:00 /usr/bin/gnome-shell
+gdm        961   942  1002 942257 155132 11:57 00:00:00 /usr/bin/gnome-shell
+gdm        961   942  1003 942257 155132 11:57 00:00:00 /usr/bin/gnome-shell
+gdm        961   942  1004 942257 155132 11:57 00:00:00 /usr/bin/gnome-shell
+gdm        961   942  1005 942257 155132 11:57 00:00:00 /usr/bin/gnome-shell
+gdm        961   942  1006 942257 155132 11:57 00:00:00 /usr/bin/gnome-shell
+gdm        961   942  1097 942257 155132 11:58 00:00:00 /usr/bin/gnome-shell
+root       974     1   974 77462  8696 11:57 00:00:00 /usr/lib/upower/upowerd
+root       974     1   975 77462  8696 11:57 00:00:00 /usr/lib/upower/upowerd
+root       974     1   976 77462  8696 11:57 00:00:00 /usr/lib/upower/upowerd
+gdm        989   761   989 286281 11572 11:57 00:00:00 /usr/bin/pulseaudio --daemonize=no
+gdm        989   761   993 286281 11572 11:57 00:00:00 /usr/bin/pulseaudio --daemonize=no
+gdm        989   761   994 286281 11572 11:57 00:00:00 /usr/bin/pulseaudio --daemonize=no
+rtkit      990     1   990 43710  2744 11:57 00:00:00 /usr/lib/rtkit-daemon
+rtkit      990     1   991 43710  2744 11:57 00:00:00 /usr/lib/rtkit-daemon
+rtkit      990     1   992 43710  2744 11:57 00:00:00 /usr/lib/rtkit-daemon
+gdm       1014   942  1014 104388 20820 11:57 00:00:00 /usr/lib/gnome-settings-daemon/gsd-wacom
+gdm       1014   942  1030 104388 20820 11:57 00:00:00 /usr/lib/gnome-settings-daemon/gsd-wacom
+gdm       1014   942  1032 104388 20820 11:57 00:00:00 /usr/lib/gnome-settings-daemon/gsd-wacom
+gdm       1016   942  1016 121080 22160 11:57 00:00:00 /usr/lib/gnome-settings-daemon/gsd-xsettings
+gdm       1016   942  1036 121080 22160 11:57 00:00:00 /usr/lib/gnome-settings-daemon/gsd-xsettings
+gdm       1016   942  1037 121080 22160 11:57 00:00:00 /usr/lib/gnome-settings-daemon/gsd-xsettings
+gdm       1016   942  1081 121080 22160 11:57 00:00:00 /usr/lib/gnome-settings-daemon/gsd-xsettings
+gdm       1017   942  1017 102712 19956 11:57 00:00:00 /usr/lib/gnome-settings-daemon/gsd-a11y-keyboard
+gdm       1017   942  1033 102712 19956 11:57 00:00:00 /usr/lib/gnome-settings-daemon/gsd-a11y-keyboard
+gdm       1017   942  1034 102712 19956 11:57 00:00:00 /usr/lib/gnome-settings-daemon/gsd-a11y-keyboard
+gdm       1017   942  1078 102712 19956 11:57 00:00:00 /usr/lib/gnome-settings-daemon/gsd-a11y-keyboard
+gdm       1018   942  1018 67677  5972 11:57 00:00:00 /usr/lib/gnome-settings-daemon/gsd-a11y-settings
+gdm       1018   942  1020 67677  5972 11:57 00:00:00 /usr/lib/gnome-settings-daemon/gsd-a11y-settings
+gdm       1018   942  1022 67677  5972 11:57 00:00:00 /usr/lib/gnome-settings-daemon/gsd-a11y-settings
+gdm       1018   942  1077 67677  5972 11:57 00:00:00 /usr/lib/gnome-settings-daemon/gsd-a11y-settings
+gdm       1019   942  1019 83178 20060 11:57 00:00:00 /usr/lib/gnome-settings-daemon/gsd-clipboard
+gdm       1019   942  1039 83178 20060 11:57 00:00:00 /usr/lib/gnome-settings-daemon/gsd-clipboard
+gdm       1019   942  1040 83178 20060 11:57 00:00:00 /usr/lib/gnome-settings-daemon/gsd-clipboard
+gdm       1021   942  1021 163781 22256 11:57 00:00:00 /usr/lib/gnome-settings-daemon/gsd-color
+gdm       1021   942  1044 163781 22256 11:57 00:00:00 /usr/lib/gnome-settings-daemon/gsd-color
+gdm       1021   942  1046 163781 22256 11:57 00:00:00 /usr/lib/gnome-settings-daemon/gsd-color
+gdm       1021   942  1048 163781 22256 11:57 00:00:00 /usr/lib/gnome-settings-daemon/gsd-color
+gdm       1023   942  1023 95626 13328 11:57 00:00:00 /usr/lib/gnome-settings-daemon/gsd-datetime
+gdm       1023   942  1043 95626 13328 11:57 00:00:00 /usr/lib/gnome-settings-daemon/gsd-datetime
+gdm       1023   942  1045 95626 13328 11:57 00:00:00 /usr/lib/gnome-settings-daemon/gsd-datetime
+gdm       1024   942  1024 68147  4868 11:57 00:00:00 /usr/lib/gnome-settings-daemon/gsd-housekeeping
+gdm       1024   942  1027 68147  4868 11:57 00:00:00 /usr/lib/gnome-settings-daemon/gsd-housekeeping
+gdm       1024   942  1029 68147  4868 11:57 00:00:00 /usr/lib/gnome-settings-daemon/gsd-housekeeping
+gdm       1025   942  1025 120617 20088 11:57 00:00:00 /usr/lib/gnome-settings-daemon/gsd-keyboard
+gdm       1025   942  1047 120617 20088 11:57 00:00:00 /usr/lib/gnome-settings-daemon/gsd-keyboard
+gdm       1025   942  1049 120617 20088 11:57 00:00:00 /usr/lib/gnome-settings-daemon/gsd-keyboard
+gdm       1025   942  1050 120617 20088 11:57 00:00:00 /usr/lib/gnome-settings-daemon/gsd-keyboard
+gdm       1026   942  1026 230293 22656 11:57 00:00:00 /usr/lib/gnome-settings-daemon/gsd-media-keys
+gdm       1026   942  1056 230293 22656 11:57 00:00:00 /usr/lib/gnome-settings-daemon/gsd-media-keys
+gdm       1026   942  1058 230293 22656 11:57 00:00:00 /usr/lib/gnome-settings-daemon/gsd-media-keys
+gdm       1026   942  1089 230293 22656 11:57 00:00:00 /usr/lib/gnome-settings-daemon/gsd-media-keys
+gdm       1031   942  1031 48638  4816 11:57 00:00:00 /usr/lib/gnome-settings-daemon/gsd-mouse
+gdm       1031   942  1038 48638  4816 11:57 00:00:00 /usr/lib/gnome-settings-daemon/gsd-mouse
+gdm       1031   942  1041 48638  4816 11:57 00:00:00 /usr/lib/gnome-settings-daemon/gsd-mouse
+gdm       1035   942  1035 124978 22012 11:57 00:00:00 /usr/lib/gnome-settings-daemon/gsd-power
+gdm       1035   942  1064 124978 22012 11:57 00:00:00 /usr/lib/gnome-settings-daemon/gsd-power
+gdm       1035   942  1066 124978 22012 11:57 00:00:00 /usr/lib/gnome-settings-daemon/gsd-power
+gdm       1035   942  1084 124978 22012 11:57 00:00:00 /usr/lib/gnome-settings-daemon/gsd-power
+gdm       1042   942  1042 64048  8432 11:57 00:00:00 /usr/lib/gnome-settings-daemon/gsd-print-notifications
+gdm       1042   942  1060 64048  8432 11:57 00:00:00 /usr/lib/gnome-settings-daemon/gsd-print-notifications
+gdm       1042   942  1061 64048  8432 11:57 00:00:00 /usr/lib/gnome-settings-daemon/gsd-print-notifications
+gdm       1051   942  1051 48642  4656 11:57 00:00:00 /usr/lib/gnome-settings-daemon/gsd-rfkill
+gdm       1051   942  1054 48642  4656 11:57 00:00:00 /usr/lib/gnome-settings-daemon/gsd-rfkill
+gdm       1051   942  1055 48642  4656 11:57 00:00:00 /usr/lib/gnome-settings-daemon/gsd-rfkill
+gdm       1052   942  1052 67072  4728 11:57 00:00:00 /usr/lib/gnome-settings-daemon/gsd-screensaver-proxy
+gdm       1052   942  1057 67072  4728 11:57 00:00:00 /usr/lib/gnome-settings-daemon/gsd-screensaver-proxy
+gdm       1052   942  1063 67072  4728 11:57 00:00:00 /usr/lib/gnome-settings-daemon/gsd-screensaver-proxy
+gdm       1053   942  1053 72494  7008 11:57 00:00:00 /usr/lib/gnome-settings-daemon/gsd-sharing
+gdm       1053   942  1067 72494  7008 11:57 00:00:00 /usr/lib/gnome-settings-daemon/gsd-sharing
+gdm       1053   942  1068 72494  7008 11:57 00:00:00 /usr/lib/gnome-settings-daemon/gsd-sharing
+gdm       1053   942  1069 72494  7008 11:57 00:00:00 /usr/lib/gnome-settings-daemon/gsd-sharing
+gdm       1062   942  1062 91114  7468 11:57 00:00:00 /usr/lib/gnome-settings-daemon/gsd-smartcard
+gdm       1062   942  1075 91114  7468 11:57 00:00:00 /usr/lib/gnome-settings-daemon/gsd-smartcard
+gdm       1062   942  1080 91114  7468 11:57 00:00:00 /usr/lib/gnome-settings-daemon/gsd-smartcard
+gdm       1062   942  1087 91114  7468 11:57 00:00:00 /usr/lib/gnome-settings-daemon/gsd-smartcard
+gdm       1062   942  1088 91114  7468 11:57 00:00:00 /usr/lib/gnome-settings-daemon/gsd-smartcard
+gdm       1070   942  1070 78849  7520 11:57 00:00:00 /usr/lib/gnome-settings-daemon/gsd-sound
+gdm       1070   942  1082 78849  7520 11:57 00:00:00 /usr/lib/gnome-settings-daemon/gsd-sound
+gdm       1070   942  1083 78849  7520 11:57 00:00:00 /usr/lib/gnome-settings-daemon/gsd-sound
+gdm       1070   942  1086 78849  7520 11:57 00:00:00 /usr/lib/gnome-settings-daemon/gsd-sound
+root      1257   732  1257 66715 10676 11:58 00:00:00 gdm-session-worker [pam/gdm-password]
+root      1257   732  1258 66715 10676 11:58 00:00:00 gdm-session-worker [pam/gdm-password]
+root      1257   732  1259 66715 10676 11:58 00:00:00 gdm-session-worker [pam/gdm-password]
+rharish   1263     1  1263 19676  8012 11:58 00:00:00 /usr/lib/systemd/systemd --user
+rharish   1264  1263  1264 35753  2496 11:58 00:00:00 (sd-pam)
+rharish   1271     1  1271 70301 11388 11:58 00:00:04 /usr/bin/gnome-keyring-daemon --daemonize --login
+rharish   1271     1  1272 70301 11388 11:58 00:00:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+rharish   1271     1  1273 70301 11388 11:58 00:00:02 /usr/bin/gnome-keyring-daemon --daemonize --login
+rharish   1271     1  1446 70301 11388 11:58 00:00:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+rharish   1277  1257  1277 50325  5536 11:58 00:00:00 /usr/lib/gdm/gdm-x-session --run-script startxfce4
+rharish   1277  1257  1278 50325  5536 11:58 00:00:00 /usr/lib/gdm/gdm-x-session --run-script startxfce4
+rharish   1277  1257  1312 50325  5536 11:58 00:00:00 /usr/lib/gdm/gdm-x-session --run-script startxfce4
+root      1279  1277  1279 145477 182344 11:58 00:04:04 /usr/lib/xorg-server/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -nolisten tcp -background none -noreset -keeptty -verbose 3
+root      1279  1277  1310 145477 182344 11:58 00:00:12 /usr/lib/xorg-server/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -nolisten tcp -background none -noreset -keeptty -verbose 3
+rharish   1311  1263  1311  8384  4700 11:58 00:00:04 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+rharish   1313  1277  1313  3461  3316 11:58 00:00:00 /bin/sh /etc/xdg/xfce4/xinitrc -- /etc/X11/xinit/xserverrc
+rharish   1330  1313  1330 85966 16836 11:58 00:00:03 xfce4-session
+rharish   1330  1313  1331 85966 16836 11:58 00:00:00 xfce4-session
+rharish   1330  1313  1332 85966 16836 11:58 00:00:00 xfce4-session
+rharish   1334  1263  1334 14267  5164 11:58 00:00:00 /usr/lib/xfce4/xfconf/xfconfd
+rharish   1337     1  1337  3366   388 11:58 00:00:00 /usr/bin/ssh-agent -s
+rharish   1339  1263  1339 41370  1384 11:58 00:00:00 /usr/bin/gpg-agent --supervised
+rharish   1341  1330  1341 48953 15164 11:58 00:00:00 Thunar --sm-client-id 2aaf86a30-d5ac-48e1-9228-fe6e231f32d2 --daemon
+rharish   1342  1330  1342 48954 15264 11:58 00:00:00 Thunar --sm-client-id 2609d195b-8717-48be-8edd-4c66c69a8fab --daemon
+rharish   1343  1330  1343 48955 15144 11:58 00:00:00 Thunar --sm-client-id 2696c435a-570f-497a-996e-6589ce594aef --daemon
+rharish   1344  1330  1344 48955 14820 11:58 00:00:00 Thunar --sm-client-id 2e7cf5b22-08a4-423f-ac25-c6e8cbf78da5 --daemon
+rharish   1345  1330  1345 48922 14964 11:58 00:00:00 Thunar --sm-client-id 2a90f7233-3864-4a30-9d20-abafd9f13401 --daemon
+rharish   1347  1330  1347 68247 18808 11:58 00:00:02 xfce4-panel --display :1.0 --sm-client-id 26a53037b-45a8-4d86-b23d-62a3a677c820
+rharish   1347  1330  1375 68247 18808 11:58 00:00:00 xfce4-panel --display :1.0 --sm-client-id 26a53037b-45a8-4d86-b23d-62a3a677c820
+rharish   1348     1  1348 97210 18784 11:58 00:00:01 xfsettingsd --display :1.0 --sm-client-id 2f0246ec4-fa68-4e84-a066-4f93c0152e6a
+rharish   1348     1  1354 97210 18784 11:58 00:00:00 xfsettingsd --display :1.0 --sm-client-id 2f0246ec4-fa68-4e84-a066-4f93c0152e6a
+rharish   1348     1  1355 97210 18784 11:58 00:00:00 xfsettingsd --display :1.0 --sm-client-id 2f0246ec4-fa68-4e84-a066-4f93c0152e6a
+rharish   1350  1330  1350 171952 75936 11:58 00:00:25 xfdesktop --display :1.0 --sm-client-id 2de6c1bdb-55dc-4019-8449-817625abc512
+rharish   1350  1330  1352 171952 75936 11:58 00:00:00 xfdesktop --display :1.0 --sm-client-id 2de6c1bdb-55dc-4019-8449-817625abc512
+rharish   1350  1330  1353 171952 75936 11:58 00:00:00 xfdesktop --display :1.0 --sm-client-id 2de6c1bdb-55dc-4019-8449-817625abc512
+rharish   1357  1263  1357 70299  7008 11:58 00:00:00 /usr/lib/gvfs/gvfsd
+rharish   1357  1263  1358 70299  7008 11:58 00:00:00 /usr/lib/gvfs/gvfsd
+rharish   1357  1263  1359 70299  7008 11:58 00:00:00 /usr/lib/gvfs/gvfsd
+rharish   1362  1263  1362 103418 5700 11:58 00:00:00 /usr/lib/gvfs/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+rharish   1362  1263  1364 103418 5700 11:58 00:00:00 /usr/lib/gvfs/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+rharish   1362  1263  1365 103418 5700 11:58 00:00:00 /usr/lib/gvfs/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+rharish   1362  1263  1366 103418 5700 11:58 00:00:00 /usr/lib/gvfs/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+rharish   1362  1263  1368 103418 5700 11:58 00:00:00 /usr/lib/gvfs/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+rharish   1362  1263  1369 103418 5700 11:58 00:00:00 /usr/lib/gvfs/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+rharish   1374  1347  1374 178270 31728 11:58 00:00:00 /usr/lib/xfce4/panel/wrapper-1.0 /usr/lib/xfce4/panel/plugins/libwhiskermenu.so 8 14680102 whiskermenu Whisker Menu Show a menu to easily access installed applications
+rharish   1374  1347  1382 178270 31728 11:58 00:00:00 /usr/lib/xfce4/panel/wrapper-1.0 /usr/lib/xfce4/panel/plugins/libwhiskermenu.so 8 14680102 whiskermenu Whisker Menu Show a menu to easily access installed applications
+rharish   1374  1347  1383 178270 31728 11:58 00:00:00 /usr/lib/xfce4/panel/wrapper-1.0 /usr/lib/xfce4/panel/plugins/libwhiskermenu.so 8 14680102 whiskermenu Whisker Menu Show a menu to easily access installed applications
+rharish   1374  1347  1687 178270 31728 11:58 00:00:00 /usr/lib/xfce4/panel/wrapper-1.0 /usr/lib/xfce4/panel/plugins/libwhiskermenu.so 8 14680102 whiskermenu Whisker Menu Show a menu to easily access installed applications
+rharish   1376  1347  1376 43480 14904 11:58 00:00:00 /usr/lib/xfce4/panel/wrapper-1.0 /usr/lib/xfce4/panel/plugins/libdockbarx.so 3 14680103 dockbarx DockbarX Dock-style taskbar with grouping and group manipulation.
+rharish   1377  1347  1377 47280 15304 11:58 00:00:00 /usr/lib/xfce4/panel/wrapper-1.0 /usr/lib/xfce4/panel/plugins/libsystray.so 6 14680104 systray Notification Area Area where notification icons appear
+rharish   1378  1347  1378 184777 45308 11:58 00:00:00 /usr/lib/xfce4/panel/wrapper-2.0 /usr/lib/xfce4/panel/plugins/libpulseaudio-plugin.so 4 14680105 pulseaudio PulseAudio Plugin Adjust the audio volume of the PulseAudio sound system
+rharish   1378  1347  1395 184777 45308 11:58 00:00:00 /usr/lib/xfce4/panel/wrapper-2.0 /usr/lib/xfce4/panel/plugins/libpulseaudio-plugin.so 4 14680105 pulseaudio PulseAudio Plugin Adjust the audio volume of the PulseAudio sound system
+rharish   1378  1347  1396 184777 45308 11:58 00:00:00 /usr/lib/xfce4/panel/wrapper-2.0 /usr/lib/xfce4/panel/plugins/libpulseaudio-plugin.so 4 14680105 pulseaudio PulseAudio Plugin Adjust the audio volume of the PulseAudio sound system
+rharish   1379  1347  1379 43047 18964 11:58 00:00:00 /usr/lib/xfce4/panel/wrapper-1.0 /usr/lib/xfce4/panel/plugins/liborageclock.so 2 14680106 xfce4-orageclock-plugin Orage Panel Clock Show time and date?
+rharish   1380  1347  1380 113917 43732 11:58 00:00:00 /usr/lib/xfce4/panel/wrapper-2.0 /usr/lib/xfce4/panel/plugins/libnotification-plugin.so 5 14680107 notification-plugin Notification Plugin Notification plugin for the Xfce panel
+rharish   1380  1347  1392 113917 43732 11:58 00:00:00 /usr/lib/xfce4/panel/wrapper-2.0 /usr/lib/xfce4/panel/plugins/libnotification-plugin.so 5 14680107 notification-plugin Notification Plugin Notification plugin for the Xfce panel
+rharish   1380  1347  1394 113917 43732 11:58 00:00:00 /usr/lib/xfce4/panel/wrapper-2.0 /usr/lib/xfce4/panel/plugins/libnotification-plugin.so 5 14680107 notification-plugin Notification Plugin Notification plugin for the Xfce panel
+rharish   1385     1  1385 218111 58528 11:58 00:00:05 python2 /usr/share/xfce4/panel/plugins/xfce4-dockbarx-plug -s 23068710 -i 3
+rharish   1385     1  1615 218111 58528 11:58 00:00:00 python2 /usr/share/xfce4/panel/plugins/xfce4-dockbarx-plug -s 23068710 -i 3
+rharish   1385     1  1617 218111 58528 11:58 00:00:00 python2 /usr/share/xfce4/panel/plugins/xfce4-dockbarx-plug -s 23068710 -i 3
+rharish   1385     1  5674 218111 58528 12:21 00:00:00 python2 /usr/share/xfce4/panel/plugins/xfce4-dockbarx-plug -s 23068710 -i 3
+rharish   1387  1330  1387 122008 88028 11:58 00:01:35 compiz --sm-client-id 2f9424553-cd6d-427c-8284-9721f0c22e20
+rharish   1387  1330  1400 122008 88028 11:58 00:00:00 compiz --sm-client-id 2f9424553-cd6d-427c-8284-9721f0c22e20
+rharish   1397     1  1397 103589 33748 11:58 00:00:01 xfce4-power-manager --restart --sm-client-id 2aa3ef99b-4c0a-43e4-a7d2-2241c61646ef
+rharish   1397     1  1398 103589 33748 11:58 00:00:00 xfce4-power-manager --restart --sm-client-id 2aa3ef99b-4c0a-43e4-a7d2-2241c61646ef
+rharish   1397     1  1399 103589 33748 11:58 00:00:01 xfce4-power-manager --restart --sm-client-id 2aa3ef99b-4c0a-43e4-a7d2-2241c61646ef
+rharish   1401  1263  1401 86222  5652 11:58 00:00:00 /usr/lib/at-spi-bus-launcher
+rharish   1401  1263  1402 86222  5652 11:58 00:00:00 /usr/lib/at-spi-bus-launcher
+rharish   1401  1263  1403 86222  5652 11:58 00:00:00 /usr/lib/at-spi-bus-launcher
+rharish   1401  1263  1405 86222  5652 11:58 00:00:00 /usr/lib/at-spi-bus-launcher
+rharish   1406  1401  1406  8113  3508 11:58 00:00:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+rharish   1408  1263  1408 54615  5924 11:58 00:00:02 /usr/lib/at-spi2-registryd --use-gnome-session
+rharish   1408  1263  1410 54615  5924 11:58 00:00:00 /usr/lib/at-spi2-registryd --use-gnome-session
+rharish   1408  1263  1411 54615  5924 11:58 00:00:00 /usr/lib/at-spi2-registryd --use-gnome-session
+rharish   1409  1263  1409 88292 10336 11:58 00:00:00 /usr/lib/gvfs/gvfs-udisks2-volume-monitor
+rharish   1409  1263  1414 88292 10336 11:58 00:00:00 /usr/lib/gvfs/gvfs-udisks2-volume-monitor
+rharish   1409  1263  1415 88292 10336 11:58 00:00:00 /usr/lib/gvfs/gvfs-udisks2-volume-monitor
+rharish   1412  1263  1412 747716 13184 11:58 00:07:02 /usr/bin/pulseaudio --daemonize=no
+rharish   1412  1263  1431 747716 13184 11:58 00:04:03 /usr/bin/pulseaudio --daemonize=no
+rharish   1412  1263  1432 747716 13184 11:58 00:00:00 /usr/bin/pulseaudio --daemonize=no
+rharish   1413  1263  1413 116395 32884 11:58 00:00:00 /usr/lib/xfce4/notifyd/xfce4-notifyd
+rharish   1413  1263  1417 116395 32884 11:58 00:00:00 /usr/lib/xfce4/notifyd/xfce4-notifyd
+rharish   1413  1263  1419 116395 32884 11:58 00:00:00 /usr/lib/xfce4/notifyd/xfce4-notifyd
+root      1416     1  1416 126402 11392 11:58 00:00:00 /usr/lib/udisks2/udisksd
+root      1416     1  1420 126402 11392 11:58 00:00:00 /usr/lib/udisks2/udisksd
+root      1416     1  1422 126402 11392 11:58 00:00:00 /usr/lib/udisks2/udisksd
+root      1416     1  1423 126402 11392 11:58 00:00:00 /usr/lib/udisks2/udisksd
+root      1416     1  1480 126402 11392 11:58 00:00:00 /usr/lib/udisks2/udisksd
+rharish   1434  1387  1434 208769 35252 11:58 00:00:05 /usr/bin/gtk-window-decorator --metacity-theme Arc --repl
+rharish   1434  1387  1435 208769 35252 11:58 00:00:00 /usr/bin/gtk-window-decorator --metacity-theme Arc --repl
+rharish   1434  1387  1436 208769 35252 11:58 00:00:00 /usr/bin/gtk-window-decorator --metacity-theme Arc --repl
+rharish   1434  1387  1439 208769 35252 11:58 00:00:00 /usr/bin/gtk-window-decorator --metacity-theme Arc --repl
+rharish   1434  1387  1477 208769 35252 11:58 00:00:00 /usr/bin/gtk-window-decorator --metacity-theme Arc --repl
+rharish   1438  1263  1438 15701  5264 11:58 00:00:00 /usr/lib/GConf/gconfd-2
+rharish   1448  1330  1448 178108 50892 11:58 00:00:18 python2 /opt/grive-tools/grive-indicator
+rharish   1448  1330  1523 178108 50892 11:58 00:00:00 python2 /opt/grive-tools/grive-indicator
+rharish   1448  1330  1528 178108 50892 11:58 00:00:00 python2 /opt/grive-tools/grive-indicator
+rharish   1448  1330  1563 178108 50892 11:58 00:00:00 python2 /opt/grive-tools/grive-indicator
+rharish   1448  1330  1574 178108 50892 11:58 00:00:00 python2 /opt/grive-tools/grive-indicator
+rharish   1449  1330  1449 126303 47180 11:58 00:00:00 python3 /usr/bin/redshift-gtk -l 26.4499:80.3319 -t 6500:4000 -b 1.0:0.8
+rharish   1449  1330  1565 126303 47180 11:58 00:00:00 python3 /usr/bin/redshift-gtk -l 26.4499:80.3319 -t 6500:4000 -b 1.0:0.8
+rharish   1449  1330  1566 126303 47180 11:58 00:00:00 python3 /usr/bin/redshift-gtk -l 26.4499:80.3319 -t 6500:4000 -b 1.0:0.8
+rharish   1453  1330  1453 136276 61148 11:58 00:00:00 kalu
+rharish   1453  1330  1472 136276 61148 11:58 00:00:00 kalu
+rharish   1453  1330  1473 136276 61148 11:58 00:00:00 kalu
+rharish   1454     1  1454  8208  1996 11:58 00:00:01 ksuperkey
+rharish   1454     1  1455  8208  1996 11:58 00:00:00 ksuperkey
+rharish   1456  1330  1456 48924 15024 11:58 00:00:00 thunar --daemon
+rharish   1457  1330  1457 1201223 134560 11:58 00:00:00 /usr/bin/python3 /home/rharish/.wallpaper.py
+rharish   1457  1330  1603 1201223 134560 11:58 00:00:05 /usr/bin/python3 /home/rharish/.wallpaper.py
+rharish   1457  1330  1604 1201223 134560 11:58 00:00:06 /usr/bin/python3 /home/rharish/.wallpaper.py
+rharish   1457  1330  1605 1201223 134560 11:58 00:00:00 /usr/bin/python3 /home/rharish/.wallpaper.py
+rharish   1457  1330  1606 1201223 134560 11:58 00:00:00 /usr/bin/python3 /home/rharish/.wallpaper.py
+rharish   1457  1330  3246 1201223 134560 12:08 00:00:05 /usr/bin/python3 /home/rharish/.wallpaper.py
+rharish   1457  1330  3247 1201223 134560 12:08 00:00:06 /usr/bin/python3 /home/rharish/.wallpaper.py
+rharish   1457  1330  3248 1201223 134560 12:08 00:00:00 /usr/bin/python3 /home/rharish/.wallpaper.py
+rharish   1457  1330  3249 1201223 134560 12:08 00:00:00 /usr/bin/python3 /home/rharish/.wallpaper.py
+rharish   1457  1330  5499 1201223 134560 12:18 00:00:04 /usr/bin/python3 /home/rharish/.wallpaper.py
+rharish   1457  1330  5500 1201223 134560 12:18 00:00:05 /usr/bin/python3 /home/rharish/.wallpaper.py
+rharish   1457  1330  5501 1201223 134560 12:18 00:00:00 /usr/bin/python3 /home/rharish/.wallpaper.py
+rharish   1457  1330  5502 1201223 134560 12:18 00:00:00 /usr/bin/python3 /home/rharish/.wallpaper.py
+rharish   1457  1330  6284 1201223 134560 12:28 00:00:05 /usr/bin/python3 /home/rharish/.wallpaper.py
+rharish   1457  1330  6285 1201223 134560 12:28 00:00:05 /usr/bin/python3 /home/rharish/.wallpaper.py
+rharish   1457  1330  6286 1201223 134560 12:28 00:00:00 /usr/bin/python3 /home/rharish/.wallpaper.py
+rharish   1457  1330  6287 1201223 134560 12:28 00:00:00 /usr/bin/python3 /home/rharish/.wallpaper.py
+rharish   1457  1330  6834 1201223 134560 12:38 00:00:04 /usr/bin/python3 /home/rharish/.wallpaper.py
+rharish   1457  1330  6835 1201223 134560 12:38 00:00:04 /usr/bin/python3 /home/rharish/.wallpaper.py
+rharish   1457  1330  6836 1201223 134560 12:38 00:00:00 /usr/bin/python3 /home/rharish/.wallpaper.py
+rharish   1457  1330  6837 1201223 134560 12:38 00:00:00 /usr/bin/python3 /home/rharish/.wallpaper.py
+rharish   1457  1330  7997 1201223 134560 12:49 00:00:04 /usr/bin/python3 /home/rharish/.wallpaper.py
+rharish   1457  1330  7998 1201223 134560 12:49 00:00:04 /usr/bin/python3 /home/rharish/.wallpaper.py
+rharish   1457  1330  7999 1201223 134560 12:49 00:00:00 /usr/bin/python3 /home/rharish/.wallpaper.py
+rharish   1457  1330  8000 1201223 134560 12:49 00:00:00 /usr/bin/python3 /home/rharish/.wallpaper.py
+rharish   1457  1330  9236 1201223 134560 12:59 00:00:05 /usr/bin/python3 /home/rharish/.wallpaper.py
+rharish   1457  1330  9237 1201223 134560 12:59 00:00:04 /usr/bin/python3 /home/rharish/.wallpaper.py
+rharish   1457  1330  9238 1201223 134560 12:59 00:00:00 /usr/bin/python3 /home/rharish/.wallpaper.py
+rharish   1457  1330  9239 1201223 134560 12:59 00:00:00 /usr/bin/python3 /home/rharish/.wallpaper.py
+rharish   1457  1330 11147 1201223 134560 13:09 00:00:05 /usr/bin/python3 /home/rharish/.wallpaper.py
+rharish   1457  1330 11148 1201223 134560 13:09 00:00:03 /usr/bin/python3 /home/rharish/.wallpaper.py
+rharish   1457  1330 11149 1201223 134560 13:09 00:00:00 /usr/bin/python3 /home/rharish/.wallpaper.py
+rharish   1457  1330 11150 1201223 134560 13:09 00:00:00 /usr/bin/python3 /home/rharish/.wallpaper.py
+rharish   1457  1330 12148 1201223 134560 13:19 00:00:05 /usr/bin/python3 /home/rharish/.wallpaper.py
+rharish   1457  1330 12149 1201223 134560 13:19 00:00:03 /usr/bin/python3 /home/rharish/.wallpaper.py
+rharish   1457  1330 12150 1201223 134560 13:19 00:00:00 /usr/bin/python3 /home/rharish/.wallpaper.py
+rharish   1457  1330 12151 1201223 134560 13:19 00:00:00 /usr/bin/python3 /home/rharish/.wallpaper.py
+rharish   1457  1330 13414 1201223 134560 13:29 00:00:04 /usr/bin/python3 /home/rharish/.wallpaper.py
+rharish   1457  1330 13415 1201223 134560 13:29 00:00:03 /usr/bin/python3 /home/rharish/.wallpaper.py
+rharish   1457  1330 13416 1201223 134560 13:29 00:00:00 /usr/bin/python3 /home/rharish/.wallpaper.py
+rharish   1457  1330 13417 1201223 134560 13:29 00:00:00 /usr/bin/python3 /home/rharish/.wallpaper.py
+rharish   1457  1330 14203 1201223 134560 13:39 00:00:05 /usr/bin/python3 /home/rharish/.wallpaper.py
+rharish   1457  1330 14204 1201223 134560 13:39 00:00:02 /usr/bin/python3 /home/rharish/.wallpaper.py
+rharish   1457  1330 14205 1201223 134560 13:39 00:00:00 /usr/bin/python3 /home/rharish/.wallpaper.py
+rharish   1457  1330 14206 1201223 134560 13:39 00:00:00 /usr/bin/python3 /home/rharish/.wallpaper.py
+rharish   1457  1330 15462 1201223 134560 13:49 00:00:05 /usr/bin/python3 /home/rharish/.wallpaper.py
+rharish   1457  1330 15463 1201223 134560 13:49 00:00:02 /usr/bin/python3 /home/rharish/.wallpaper.py
+rharish   1457  1330 15464 1201223 134560 13:49 00:00:00 /usr/bin/python3 /home/rharish/.wallpaper.py
+rharish   1457  1330 15465 1201223 134560 13:49 00:00:00 /usr/bin/python3 /home/rharish/.wallpaper.py
+rharish   1457  1330 16589 1201223 134560 13:59 00:00:05 /usr/bin/python3 /home/rharish/.wallpaper.py
+rharish   1457  1330 16590 1201223 134560 13:59 00:00:02 /usr/bin/python3 /home/rharish/.wallpaper.py
+rharish   1457  1330 16591 1201223 134560 13:59 00:00:00 /usr/bin/python3 /home/rharish/.wallpaper.py
+rharish   1457  1330 16592 1201223 134560 13:59 00:00:00 /usr/bin/python3 /home/rharish/.wallpaper.py
+rharish   1457  1330 17614 1201223 134560 14:10 00:00:05 /usr/bin/python3 /home/rharish/.wallpaper.py
+rharish   1457  1330 17615 1201223 134560 14:10 00:00:01 /usr/bin/python3 /home/rharish/.wallpaper.py
+rharish   1457  1330 17616 1201223 134560 14:10 00:00:00 /usr/bin/python3 /home/rharish/.wallpaper.py
+rharish   1457  1330 17617 1201223 134560 14:10 00:00:00 /usr/bin/python3 /home/rharish/.wallpaper.py
+rharish   1457  1330 19020 1201223 134560 14:20 00:00:05 /usr/bin/python3 /home/rharish/.wallpaper.py
+rharish   1457  1330 19021 1201223 134560 14:20 00:00:01 /usr/bin/python3 /home/rharish/.wallpaper.py
+rharish   1457  1330 19022 1201223 134560 14:20 00:00:00 /usr/bin/python3 /home/rharish/.wallpaper.py
+rharish   1457  1330 19023 1201223 134560 14:20 00:00:00 /usr/bin/python3 /home/rharish/.wallpaper.py
+rharish   1457  1330 20101 1201223 134560 14:30 00:00:05 /usr/bin/python3 /home/rharish/.wallpaper.py
+rharish   1457  1330 20102 1201223 134560 14:30 00:00:00 /usr/bin/python3 /home/rharish/.wallpaper.py
+rharish   1457  1330 20103 1201223 134560 14:30 00:00:00 /usr/bin/python3 /home/rharish/.wallpaper.py
+rharish   1457  1330 20104 1201223 134560 14:30 00:00:00 /usr/bin/python3 /home/rharish/.wallpaper.py
+rharish   1457  1330 20853 1201223 134560 14:40 00:00:05 /usr/bin/python3 /home/rharish/.wallpaper.py
+rharish   1457  1330 20854 1201223 134560 14:40 00:00:00 /usr/bin/python3 /home/rharish/.wallpaper.py
+rharish   1457  1330 20855 1201223 134560 14:40 00:00:00 /usr/bin/python3 /home/rharish/.wallpaper.py
+rharish   1457  1330 20856 1201223 134560 14:40 00:00:00 /usr/bin/python3 /home/rharish/.wallpaper.py
+rharish   1457  1330 21534 1201223 134560 14:50 00:00:04 /usr/bin/python3 /home/rharish/.wallpaper.py
+rharish   1457  1330 21535 1201223 134560 14:50 00:00:00 /usr/bin/python3 /home/rharish/.wallpaper.py
+rharish   1457  1330 21536 1201223 134560 14:50 00:00:00 /usr/bin/python3 /home/rharish/.wallpaper.py
+rharish   1457  1330 21537 1201223 134560 14:50 00:00:00 /usr/bin/python3 /home/rharish/.wallpaper.py
+rharish   1458  1330  1458 67072  4796 11:58 00:00:00 /usr/lib/gnome-settings-daemon/gsd-screensaver-proxy
+rharish   1458  1330  1459 67072  4796 11:58 00:00:00 /usr/lib/gnome-settings-daemon/gsd-screensaver-proxy
+rharish   1458  1330  1462 67072  4796 11:58 00:00:00 /usr/lib/gnome-settings-daemon/gsd-screensaver-proxy
+rharish   1461  1330  1461 237127 35532 11:58 00:00:05 plank
+rharish   1461  1330  1475 237127 35532 11:58 00:00:00 plank
+rharish   1461  1330  1476 237127 35532 11:58 00:00:00 plank
+rharish   1461  1330  1524 237127 35532 11:58 00:00:00 plank
+rharish   1461  1330  5677 237127 35532 12:21 00:00:00 plank
+rharish   1465  1330  1465  3461  3112 11:58 00:00:00 /bin/bash -c sleep 5; xautolock -time 2 -locker '/home/rharish/.i3locker.sh' -notify 5 -notifier 'xset s activate && xset dpms force off' -corners -000 & /home/rharish/.lightsOn.sh
+rharish   1469  1330  1469 10413 12048 11:58 00:00:07 python3 /usr/bin/libinput-gestures
+rharish   1471  1330  1471 1049488 49408 11:58 00:00:00 /usr/lib/jvm/java-8-openjdk/jre/bin/java -Xmx1024m -jar /opt/xdman/xdman.jar -m
+rharish   1471  1330  1520 1049488 49408 11:58 00:00:00 /usr/lib/jvm/java-8-openjdk/jre/bin/java -Xmx1024m -jar /opt/xdman/xdman.jar -m
+rharish   1471  1330  1546 1049488 49408 11:58 00:00:00 /usr/lib/jvm/java-8-openjdk/jre/bin/java -Xmx1024m -jar /opt/xdman/xdman.jar -m
+rharish   1471  1330  1547 1049488 49408 11:58 00:00:00 /usr/lib/jvm/java-8-openjdk/jre/bin/java -Xmx1024m -jar /opt/xdman/xdman.jar -m
+rharish   1471  1330  1548 1049488 49408 11:58 00:00:00 /usr/lib/jvm/java-8-openjdk/jre/bin/java -Xmx1024m -jar /opt/xdman/xdman.jar -m
+rharish   1471  1330  1549 1049488 49408 11:58 00:00:00 /usr/lib/jvm/java-8-openjdk/jre/bin/java -Xmx1024m -jar /opt/xdman/xdman.jar -m
+rharish   1471  1330  1550 1049488 49408 11:58 00:00:00 /usr/lib/jvm/java-8-openjdk/jre/bin/java -Xmx1024m -jar /opt/xdman/xdman.jar -m
+rharish   1471  1330  1551 1049488 49408 11:58 00:00:00 /usr/lib/jvm/java-8-openjdk/jre/bin/java -Xmx1024m -jar /opt/xdman/xdman.jar -m
+rharish   1471  1330  1552 1049488 49408 11:58 00:00:00 /usr/lib/jvm/java-8-openjdk/jre/bin/java -Xmx1024m -jar /opt/xdman/xdman.jar -m
+rharish   1471  1330  1553 1049488 49408 11:58 00:00:00 /usr/lib/jvm/java-8-openjdk/jre/bin/java -Xmx1024m -jar /opt/xdman/xdman.jar -m
+rharish   1471  1330  1575 1049488 49408 11:58 00:00:00 /usr/lib/jvm/java-8-openjdk/jre/bin/java -Xmx1024m -jar /opt/xdman/xdman.jar -m
+rharish   1471  1330  1581 1049488 49408 11:58 00:00:00 /usr/lib/jvm/java-8-openjdk/jre/bin/java -Xmx1024m -jar /opt/xdman/xdman.jar -m
+rharish   1471  1330  1583 1049488 49408 11:58 00:00:00 /usr/lib/jvm/java-8-openjdk/jre/bin/java -Xmx1024m -jar /opt/xdman/xdman.jar -m
+rharish   1471  1330  1590 1049488 49408 11:58 00:00:00 /usr/lib/jvm/java-8-openjdk/jre/bin/java -Xmx1024m -jar /opt/xdman/xdman.jar -m
+rharish   1471  1330  1591 1049488 49408 11:58 00:00:00 /usr/lib/jvm/java-8-openjdk/jre/bin/java -Xmx1024m -jar /opt/xdman/xdman.jar -m
+rharish   1471  1330  1592 1049488 49408 11:58 00:00:00 /usr/lib/jvm/java-8-openjdk/jre/bin/java -Xmx1024m -jar /opt/xdman/xdman.jar -m
+rharish   1471  1330  1593 1049488 49408 11:58 00:00:00 /usr/lib/jvm/java-8-openjdk/jre/bin/java -Xmx1024m -jar /opt/xdman/xdman.jar -m
+rharish   1471  1330  1594 1049488 49408 11:58 00:00:00 /usr/lib/jvm/java-8-openjdk/jre/bin/java -Xmx1024m -jar /opt/xdman/xdman.jar -m
+rharish   1471  1330  1595 1049488 49408 11:58 00:00:00 /usr/lib/jvm/java-8-openjdk/jre/bin/java -Xmx1024m -jar /opt/xdman/xdman.jar -m
+rharish   1471  1330  1596 1049488 49408 11:58 00:00:04 /usr/lib/jvm/java-8-openjdk/jre/bin/java -Xmx1024m -jar /opt/xdman/xdman.jar -m
+rharish   1471  1330  1609 1049488 49408 11:58 00:00:00 /usr/lib/jvm/java-8-openjdk/jre/bin/java -Xmx1024m -jar /opt/xdman/xdman.jar -m
+rharish   1471  1330  1610 1049488 49408 11:58 00:00:01 /usr/lib/jvm/java-8-openjdk/jre/bin/java -Xmx1024m -jar /opt/xdman/xdman.jar -m
+rharish   1471  1330  1611 1049488 49408 11:58 00:00:00 /usr/lib/jvm/java-8-openjdk/jre/bin/java -Xmx1024m -jar /opt/xdman/xdman.jar -m
+rharish   1471  1330  1614 1049488 49408 11:58 00:00:00 /usr/lib/jvm/java-8-openjdk/jre/bin/java -Xmx1024m -jar /opt/xdman/xdman.jar -m
+rharish   1474  1330  1474 84273 20560 11:58 00:00:00 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
+rharish   1474  1330  1483 84273 20560 11:58 00:00:00 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
+rharish   1474  1330  1484 84273 20560 11:58 00:00:00 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
+rharish   1481  1330  1481 232889 39868 11:58 00:00:01 nm-applet
+rharish   1481  1330  1496 232889 39868 11:58 00:00:00 nm-applet
+rharish   1481  1330  1499 232889 39868 11:58 00:00:00 nm-applet
+rharish   1481  1330  1515 232889 39868 11:58 00:00:00 nm-applet
+rharish   1481  1330 12607 232889 39868 13:22 00:00:00 nm-applet
+rharish   1487  1330  1487 192485 30680 11:58 00:00:00 /usr/lib/deja-dup/deja-dup-monitor
+rharish   1487  1330  1567 192485 30680 11:58 00:00:00 /usr/lib/deja-dup/deja-dup-monitor
+rharish   1487  1330  1568 192485 30680 11:58 00:00:00 /usr/lib/deja-dup/deja-dup-monitor
+rharish   1487  1330  1569 192485 30680 11:58 00:00:00 /usr/lib/deja-dup/deja-dup-monitor
+rharish   1487  1330  1571 192485 30680 11:58 00:00:00 /usr/lib/deja-dup/deja-dup-monitor
+rharish   1488  1263  1488 66288  5404 11:58 00:00:00 /usr/lib/gvfs/gvfs-mtp-volume-monitor
+rharish   1488  1263  1490 66288  5404 11:58 00:00:00 /usr/lib/gvfs/gvfs-mtp-volume-monitor
+rharish   1488  1263  1492 66288  5404 11:58 00:00:00 /usr/lib/gvfs/gvfs-mtp-volume-monitor
+rharish   1493  1330  1493  6059  6004 11:58 00:00:00 /usr/bin/python2 /usr/bin/blueberry-tray
+rharish   1495  1330  1495 69236 32108 11:58 00:00:01 /usr/bin/python3 /usr/share/system-config-printer/applet.py
+rharish   1495  1330  1602 69236 32108 11:58 00:00:00 /usr/bin/python3 /usr/share/system-config-printer/applet.py
+rharish   1500  1493  1500 168729 48244 11:58 00:00:00 python2 /usr/lib/blueberry/blueberry-tray.py
+rharish   1500  1493  1526 168729 48244 11:58 00:00:00 python2 /usr/lib/blueberry/blueberry-tray.py
+rharish   1500  1493  1529 168729 48244 11:58 00:00:00 python2 /usr/lib/blueberry/blueberry-tray.py
+rharish   1500  1493  1541 168729 48244 11:58 00:00:00 python2 /usr/lib/blueberry/blueberry-tray.py
+rharish   1500  1493  1542 168729 48244 11:58 00:00:00 python2 /usr/lib/blueberry/blueberry-tray.py
+rharish   1522     1  1522 149602 15036 11:58 00:00:00 xfce4-volumed-pulse
+rharish   1522     1  1539 149602 15036 11:58 00:00:00 xfce4-volumed-pulse
+rharish   1522     1  1540 149602 15036 11:58 00:00:00 xfce4-volumed-pulse
+rharish   1527  1263  1527 46487  5464 11:58 00:00:00 /usr/lib/dconf/dconf-service
+rharish   1527  1263  1530 46487  5464 11:58 00:00:00 /usr/lib/dconf/dconf-service
+rharish   1527  1263  1531 46487  5464 11:58 00:00:00 /usr/lib/dconf/dconf-service
+rharish   1544  1263  1544 102333 26572 11:58 00:00:04 /usr/lib/bamf/bamfdaemon
+rharish   1544  1263  1557 102333 26572 11:58 00:00:00 /usr/lib/bamf/bamfdaemon
+rharish   1544  1263  1559 102333 26572 11:58 00:00:00 /usr/lib/bamf/bamfdaemon
+rharish   1554  1500  1554  9801  7356 11:58 00:00:00 python2 /usr/lib/blueberry/safechild /usr/sbin/rfkill event
+rharish   1556  1554  1556  2053   864 11:58 00:00:00 /usr/sbin/rfkill event
+rharish   1576  1448  1576     0     0 11:58 00:00:00 [notify-send] <defunct>
+rharish   1579  1449  1579 14802  5040 11:58 00:00:00 /usr/bin/redshift -v -l 26.4499 80.3319 -t 6500 4000 -b 1.0 0.8
+rharish   1597  1469  1597  8725  4248 11:58 00:00:09 libinput-debug-events --device /dev/input/event16
+rharish   1636     1  1636 1308592 142468 11:58 00:00:02 /home/rharish/.dropbox-dist/dropbox-lnx.x86_64-44.4.58/dropbox /newerversion
+rharish   1636     1  1649 1308592 142468 11:58 00:00:00 /home/rharish/.dropbox-dist/dropbox-lnx.x86_64-44.4.58/dropbox /newerversion
+rharish   1636     1  1650 1308592 142468 11:58 00:00:00 /home/rharish/.dropbox-dist/dropbox-lnx.x86_64-44.4.58/dropbox /newerversion
+rharish   1636     1  1651 1308592 142468 11:58 00:00:00 /home/rharish/.dropbox-dist/dropbox-lnx.x86_64-44.4.58/dropbox /newerversion
+rharish   1636     1  1652 1308592 142468 11:58 00:00:00 /home/rharish/.dropbox-dist/dropbox-lnx.x86_64-44.4.58/dropbox /newerversion
+rharish   1636     1  1653 1308592 142468 11:58 00:00:00 /home/rharish/.dropbox-dist/dropbox-lnx.x86_64-44.4.58/dropbox /newerversion
+rharish   1636     1  1654 1308592 142468 11:58 00:00:00 /home/rharish/.dropbox-dist/dropbox-lnx.x86_64-44.4.58/dropbox /newerversion
+rharish   1636     1  1655 1308592 142468 11:58 00:00:00 /home/rharish/.dropbox-dist/dropbox-lnx.x86_64-44.4.58/dropbox /newerversion
+rharish   1636     1  1656 1308592 142468 11:58 00:00:00 /home/rharish/.dropbox-dist/dropbox-lnx.x86_64-44.4.58/dropbox /newerversion
+rharish   1636     1  1657 1308592 142468 11:58 00:00:00 /home/rharish/.dropbox-dist/dropbox-lnx.x86_64-44.4.58/dropbox /newerversion
+rharish   1636     1  1658 1308592 142468 11:58 00:00:00 /home/rharish/.dropbox-dist/dropbox-lnx.x86_64-44.4.58/dropbox /newerversion
+rharish   1636     1  1659 1308592 142468 11:58 00:00:00 /home/rharish/.dropbox-dist/dropbox-lnx.x86_64-44.4.58/dropbox /newerversion
+rharish   1636     1  1660 1308592 142468 11:58 00:00:00 /home/rharish/.dropbox-dist/dropbox-lnx.x86_64-44.4.58/dropbox /newerversion
+rharish   1636     1  1661 1308592 142468 11:58 00:00:00 /home/rharish/.dropbox-dist/dropbox-lnx.x86_64-44.4.58/dropbox /newerversion
+rharish   1636     1  1662 1308592 142468 11:58 00:00:00 /home/rharish/.dropbox-dist/dropbox-lnx.x86_64-44.4.58/dropbox /newerversion
+rharish   1636     1  1663 1308592 142468 11:58 00:00:00 /home/rharish/.dropbox-dist/dropbox-lnx.x86_64-44.4.58/dropbox /newerversion
+rharish   1636     1  1664 1308592 142468 11:58 00:00:00 /home/rharish/.dropbox-dist/dropbox-lnx.x86_64-44.4.58/dropbox /newerversion
+rharish   1636     1  1665 1308592 142468 11:58 00:00:00 /home/rharish/.dropbox-dist/dropbox-lnx.x86_64-44.4.58/dropbox /newerversion
+rharish   1636     1  1666 1308592 142468 11:58 00:00:00 /home/rharish/.dropbox-dist/dropbox-lnx.x86_64-44.4.58/dropbox /newerversion
+rharish   1636     1  1667 1308592 142468 11:58 00:00:01 /home/rharish/.dropbox-dist/dropbox-lnx.x86_64-44.4.58/dropbox /newerversion
+rharish   1636     1  1668 1308592 142468 11:58 00:00:00 /home/rharish/.dropbox-dist/dropbox-lnx.x86_64-44.4.58/dropbox /newerversion
+rharish   1636     1  1669 1308592 142468 11:58 00:00:00 /home/rharish/.dropbox-dist/dropbox-lnx.x86_64-44.4.58/dropbox /newerversion
+rharish   1636     1  1670 1308592 142468 11:58 00:00:00 /home/rharish/.dropbox-dist/dropbox-lnx.x86_64-44.4.58/dropbox /newerversion
+rharish   1636     1  1671 1308592 142468 11:58 00:00:00 /home/rharish/.dropbox-dist/dropbox-lnx.x86_64-44.4.58/dropbox /newerversion
+rharish   1636     1  1672 1308592 142468 11:58 00:00:00 /home/rharish/.dropbox-dist/dropbox-lnx.x86_64-44.4.58/dropbox /newerversion
+rharish   1636     1  1673 1308592 142468 11:58 00:00:00 /home/rharish/.dropbox-dist/dropbox-lnx.x86_64-44.4.58/dropbox /newerversion
+rharish   1636     1  1674 1308592 142468 11:58 00:00:00 /home/rharish/.dropbox-dist/dropbox-lnx.x86_64-44.4.58/dropbox /newerversion
+rharish   1636     1  1675 1308592 142468 11:58 00:00:00 /home/rharish/.dropbox-dist/dropbox-lnx.x86_64-44.4.58/dropbox /newerversion
+rharish   1636     1  1676 1308592 142468 11:58 00:00:00 /home/rharish/.dropbox-dist/dropbox-lnx.x86_64-44.4.58/dropbox /newerversion
+rharish   1636     1  1677 1308592 142468 11:58 00:00:00 /home/rharish/.dropbox-dist/dropbox-lnx.x86_64-44.4.58/dropbox /newerversion
+rharish   1636     1  1678 1308592 142468 11:58 00:00:00 /home/rharish/.dropbox-dist/dropbox-lnx.x86_64-44.4.58/dropbox /newerversion
+rharish   1636     1  1679 1308592 142468 11:58 00:00:00 /home/rharish/.dropbox-dist/dropbox-lnx.x86_64-44.4.58/dropbox /newerversion
+rharish   1636     1  1680 1308592 142468 11:58 00:00:00 /home/rharish/.dropbox-dist/dropbox-lnx.x86_64-44.4.58/dropbox /newerversion
+rharish   1636     1  1681 1308592 142468 11:58 00:00:00 /home/rharish/.dropbox-dist/dropbox-lnx.x86_64-44.4.58/dropbox /newerversion
+rharish   1636     1  1696 1308592 142468 11:58 00:00:00 /home/rharish/.dropbox-dist/dropbox-lnx.x86_64-44.4.58/dropbox /newerversion
+rharish   1636     1  1697 1308592 142468 11:58 00:00:00 /home/rharish/.dropbox-dist/dropbox-lnx.x86_64-44.4.58/dropbox /newerversion
+rharish   1636     1  1698 1308592 142468 11:58 00:00:00 /home/rharish/.dropbox-dist/dropbox-lnx.x86_64-44.4.58/dropbox /newerversion
+rharish   1636     1  1699 1308592 142468 11:58 00:00:00 /home/rharish/.dropbox-dist/dropbox-lnx.x86_64-44.4.58/dropbox /newerversion
+rharish   1636     1  1700 1308592 142468 11:58 00:00:00 /home/rharish/.dropbox-dist/dropbox-lnx.x86_64-44.4.58/dropbox /newerversion
+rharish   1636     1  1701 1308592 142468 11:58 00:00:00 /home/rharish/.dropbox-dist/dropbox-lnx.x86_64-44.4.58/dropbox /newerversion
+rharish   1636     1  1702 1308592 142468 11:58 00:00:00 /home/rharish/.dropbox-dist/dropbox-lnx.x86_64-44.4.58/dropbox /newerversion
+rharish   1636     1  1703 1308592 142468 11:58 00:00:00 /home/rharish/.dropbox-dist/dropbox-lnx.x86_64-44.4.58/dropbox /newerversion
+rharish   1636     1  1704 1308592 142468 11:58 00:00:00 /home/rharish/.dropbox-dist/dropbox-lnx.x86_64-44.4.58/dropbox /newerversion
+rharish   1636     1  1713 1308592 142468 11:58 00:00:00 /home/rharish/.dropbox-dist/dropbox-lnx.x86_64-44.4.58/dropbox /newerversion
+rharish   1636     1  1714 1308592 142468 11:58 00:00:00 /home/rharish/.dropbox-dist/dropbox-lnx.x86_64-44.4.58/dropbox /newerversion
+rharish   1636     1  1715 1308592 142468 11:58 00:00:00 /home/rharish/.dropbox-dist/dropbox-lnx.x86_64-44.4.58/dropbox /newerversion
+rharish   1636     1  1716 1308592 142468 11:58 00:00:00 /home/rharish/.dropbox-dist/dropbox-lnx.x86_64-44.4.58/dropbox /newerversion
+rharish   1636     1  1717 1308592 142468 11:58 00:00:00 /home/rharish/.dropbox-dist/dropbox-lnx.x86_64-44.4.58/dropbox /newerversion
+rharish   1636     1  1718 1308592 142468 11:58 00:00:00 /home/rharish/.dropbox-dist/dropbox-lnx.x86_64-44.4.58/dropbox /newerversion
+rharish   1636     1  1719 1308592 142468 11:58 00:00:00 /home/rharish/.dropbox-dist/dropbox-lnx.x86_64-44.4.58/dropbox /newerversion
+rharish   1636     1  1720 1308592 142468 11:58 00:00:00 /home/rharish/.dropbox-dist/dropbox-lnx.x86_64-44.4.58/dropbox /newerversion
+rharish   1636     1  1721 1308592 142468 11:58 00:00:00 /home/rharish/.dropbox-dist/dropbox-lnx.x86_64-44.4.58/dropbox /newerversion
+rharish   1636     1  1722 1308592 142468 11:58 00:00:00 /home/rharish/.dropbox-dist/dropbox-lnx.x86_64-44.4.58/dropbox /newerversion
+rharish   1636     1  1723 1308592 142468 11:58 00:00:00 /home/rharish/.dropbox-dist/dropbox-lnx.x86_64-44.4.58/dropbox /newerversion
+rharish   1636     1  1724 1308592 142468 11:58 00:00:00 /home/rharish/.dropbox-dist/dropbox-lnx.x86_64-44.4.58/dropbox /newerversion
+rharish   1636     1  1725 1308592 142468 11:58 00:00:00 /home/rharish/.dropbox-dist/dropbox-lnx.x86_64-44.4.58/dropbox /newerversion
+rharish   1636     1  1726 1308592 142468 11:58 00:00:00 /home/rharish/.dropbox-dist/dropbox-lnx.x86_64-44.4.58/dropbox /newerversion
+rharish   1636     1  1727 1308592 142468 11:58 00:00:00 /home/rharish/.dropbox-dist/dropbox-lnx.x86_64-44.4.58/dropbox /newerversion
+rharish   1636     1  1728 1308592 142468 11:58 00:00:00 /home/rharish/.dropbox-dist/dropbox-lnx.x86_64-44.4.58/dropbox /newerversion
+rharish   1636     1  1729 1308592 142468 11:58 00:00:00 /home/rharish/.dropbox-dist/dropbox-lnx.x86_64-44.4.58/dropbox /newerversion
+rharish   1636     1  1730 1308592 142468 11:58 00:00:00 /home/rharish/.dropbox-dist/dropbox-lnx.x86_64-44.4.58/dropbox /newerversion
+rharish   1636     1  1731 1308592 142468 11:58 00:00:00 /home/rharish/.dropbox-dist/dropbox-lnx.x86_64-44.4.58/dropbox /newerversion
+rharish   1636     1  1732 1308592 142468 11:58 00:00:00 /home/rharish/.dropbox-dist/dropbox-lnx.x86_64-44.4.58/dropbox /newerversion
+rharish   1636     1  1733 1308592 142468 11:58 00:00:00 /home/rharish/.dropbox-dist/dropbox-lnx.x86_64-44.4.58/dropbox /newerversion
+rharish   1636     1  1737 1308592 142468 11:58 00:00:00 /home/rharish/.dropbox-dist/dropbox-lnx.x86_64-44.4.58/dropbox /newerversion
+rharish   1636     1  1738 1308592 142468 11:58 00:00:00 /home/rharish/.dropbox-dist/dropbox-lnx.x86_64-44.4.58/dropbox /newerversion
+rharish   1636     1  1778 1308592 142468 11:58 00:00:00 /home/rharish/.dropbox-dist/dropbox-lnx.x86_64-44.4.58/dropbox /newerversion
+rharish   1636     1  1779 1308592 142468 11:58 00:00:00 /home/rharish/.dropbox-dist/dropbox-lnx.x86_64-44.4.58/dropbox /newerversion
+rharish   1636     1  1782 1308592 142468 11:58 00:00:00 /home/rharish/.dropbox-dist/dropbox-lnx.x86_64-44.4.58/dropbox /newerversion
+rharish   1636     1  1837 1308592 142468 11:58 00:00:00 /home/rharish/.dropbox-dist/dropbox-lnx.x86_64-44.4.58/dropbox /newerversion
+rharish   1636     1  1838 1308592 142468 11:58 00:00:00 /home/rharish/.dropbox-dist/dropbox-lnx.x86_64-44.4.58/dropbox /newerversion
+rharish   1636     1  1839 1308592 142468 11:58 00:00:00 /home/rharish/.dropbox-dist/dropbox-lnx.x86_64-44.4.58/dropbox /newerversion
+rharish   1636     1  1840 1308592 142468 11:58 00:00:00 /home/rharish/.dropbox-dist/dropbox-lnx.x86_64-44.4.58/dropbox /newerversion
+rharish   1636     1  1841 1308592 142468 11:58 00:00:00 /home/rharish/.dropbox-dist/dropbox-lnx.x86_64-44.4.58/dropbox /newerversion
+rharish   1636     1  1842 1308592 142468 11:58 00:00:00 /home/rharish/.dropbox-dist/dropbox-lnx.x86_64-44.4.58/dropbox /newerversion
+rharish   1636     1  1843 1308592 142468 11:58 00:00:01 /home/rharish/.dropbox-dist/dropbox-lnx.x86_64-44.4.58/dropbox /newerversion
+rharish   1636     1  1849 1308592 142468 11:58 00:00:00 /home/rharish/.dropbox-dist/dropbox-lnx.x86_64-44.4.58/dropbox /newerversion
+rharish   1636     1  1850 1308592 142468 11:58 00:00:00 /home/rharish/.dropbox-dist/dropbox-lnx.x86_64-44.4.58/dropbox /newerversion
+rharish   1712     1  1712 279848 73776 11:58 00:00:29 /usr/bin/python2 /usr/bin/terminator
+rharish   1712     1  1734 279848 73776 11:58 00:00:00 /usr/bin/python2 /usr/bin/terminator
+rharish   1712     1  1735 279848 73776 11:58 00:00:00 /usr/bin/python2 /usr/bin/terminator
+rharish   1712     1  1739 279848 73776 11:58 00:00:00 /usr/bin/python2 /usr/bin/terminator
+rharish   1712     1  1747 279848 73776 11:58 00:00:00 /usr/bin/python2 /usr/bin/terminator
+rharish   1745  1712  1745 11934  9992 11:58 00:00:04 /bin/zsh
+rharish   1766  1465  1766  5056  2772 11:58 00:00:01 xautolock -time 2 -locker /home/rharish/.i3locker.sh -notify 5 -notifier xset s activate && xset dpms force off -corners -000
+rharish   1767  1465  1767  3780  4440 11:58 00:00:00 bash /home/rharish/.lightsOn.sh
+rharish   1834     1  1834  3366   388 11:58 00:00:00 ssh-agent -s
+rharish   2282  1263  2282 48122  6444 12:00 00:00:00 /usr/lib/gvfs/gvfsd-metadata
+rharish   2282  1263  2283 48122  6444 12:00 00:00:00 /usr/lib/gvfs/gvfsd-metadata
+rharish   2282  1263  2284 48122  6444 12:00 00:00:00 /usr/lib/gvfs/gvfsd-metadata
+rharish   3534  1348  3534 434911 156124 12:12 00:00:31 evince
+rharish   3534  1348  3535 434911 156124 12:12 00:00:00 evince
+rharish   3534  1348  3536 434911 156124 12:12 00:00:00 evince
+rharish   3534  1348  3538 434911 156124 12:12 00:00:00 evince
+rharish   3534  1348  3548 434911 156124 12:12 00:00:00 evince
+rharish   3534  1348  3552 434911 156124 12:12 00:00:00 evince
+rharish   3549  1263  3549 46327  4332 12:12 00:00:00 /usr/lib/evince/evinced
+rharish   3549  1263  3550 46327  4332 12:12 00:00:00 /usr/lib/evince/evinced
+rharish   3549  1263  3551 46327  4332 12:12 00:00:00 /usr/lib/evince/evinced
+root      3554     2  3554     0     0 12:12 00:00:00 [kworker/3:1]
+rharish   4254  1263  4254 69332  5536 12:14 00:00:00 /usr/bin/gnome-keyring-daemon --start --foreground --components=secrets
+rharish   4254  1263  4255 69332  5536 12:14 00:00:00 /usr/bin/gnome-keyring-daemon --start --foreground --components=secrets
+rharish   4254  1263  4256 69332  5536 12:14 00:00:00 /usr/bin/gnome-keyring-daemon --start --foreground --components=secrets
+rharish   5675  1379  5675 144402 26856 12:21 00:00:00 orage
+rharish   5675  1379  5676 144402 26856 12:21 00:00:00 orage
+rharish   9742  1263  9742 89337  6888 13:02 00:00:00 /usr/lib/gvfs/gvfsd-trash --spawner :1.16 /org/gtk/gvfs/exec_spaw/0
+rharish   9742  1263  9743 89337  6888 13:02 00:00:00 /usr/lib/gvfs/gvfsd-trash --spawner :1.16 /org/gtk/gvfs/exec_spaw/0
+rharish   9742  1263  9744 89337  6888 13:02 00:00:00 /usr/lib/gvfs/gvfsd-trash --spawner :1.16 /org/gtk/gvfs/exec_spaw/0
+rharish   9755  1263  9755 108341 7348 13:02 00:00:00 /usr/lib/gvfs/gvfsd-network --spawner :1.16 /org/gtk/gvfs/exec_spaw/2
+rharish   9755  1263  9758 108341 7348 13:02 00:00:00 /usr/lib/gvfs/gvfsd-network --spawner :1.16 /org/gtk/gvfs/exec_spaw/2
+rharish   9755  1263  9760 108341 7348 13:02 00:00:00 /usr/lib/gvfs/gvfsd-network --spawner :1.16 /org/gtk/gvfs/exec_spaw/2
+rharish   9755  1263  9763 108341 7348 13:02 00:00:00 /usr/lib/gvfs/gvfsd-network --spawner :1.16 /org/gtk/gvfs/exec_spaw/2
+rharish   9765  1263  9765 111065 7680 13:02 00:00:00 /usr/lib/gvfs/gvfsd-dnssd --spawner :1.16 /org/gtk/gvfs/exec_spaw/3
+rharish   9765  1263  9769 111065 7680 13:02 00:00:00 /usr/lib/gvfs/gvfsd-dnssd --spawner :1.16 /org/gtk/gvfs/exec_spaw/3
+rharish   9765  1263  9771 111065 7680 13:02 00:00:00 /usr/lib/gvfs/gvfsd-dnssd --spawner :1.16 /org/gtk/gvfs/exec_spaw/3
+rharish  10305  1263 10305 87072  9908 13:06 00:00:00 /usr/lib/gvfs/gvfsd-http --spawner :1.16 /org/gtk/gvfs/exec_spaw/5
+rharish  10305  1263 10306 87072  9908 13:06 00:00:00 /usr/lib/gvfs/gvfsd-http --spawner :1.16 /org/gtk/gvfs/exec_spaw/5
+rharish  10305  1263 10307 87072  9908 13:06 00:00:00 /usr/lib/gvfs/gvfsd-http --spawner :1.16 /org/gtk/gvfs/exec_spaw/5
+root     12787     2 12787     0     0 13:22 00:00:00 [kworker/0:0]
+root     13161     2 13161     0     0 13:24 00:00:00 [kworker/6:2]
+root     13342     2 13342     0     0 13:27 00:00:00 [kworker/3:0]
+root     14089     2 14089     0     0 13:38 00:00:00 [kworker/0:2]
+root     14499     2 14499     0     0 13:41 00:00:00 [kworker/5:0]
+root     15041     2 15041     0     0 13:46 00:00:00 [kworker/u16:1]
+root     19366     2 19366     0     0 14:23 00:00:00 [kworker/u16:2]
+root     19594     2 19594     0     0 14:26 00:00:00 [kworker/1:2]
+root     19677     2 19677     0     0 14:26 00:00:00 [kworker/7:2]
+root     19678     2 19678     0     0 14:26 00:00:00 [kworker/2:2]
+root     19956     2 19956     0     0 14:29 00:00:00 [kworker/5:1]
+root     20094     2 20094     0     0 14:29 00:00:00 [kworker/6:1]
+root     20266     2 20266     0     0 14:34 00:00:00 [kworker/u16:0]
+root     20821     2 20821     0     0 14:39 00:00:00 [kworker/4:3]
+root     21217     2 21217     0     0 14:45 00:00:00 [kworker/4:0]
+root     21405     2 21405     0     0 14:49 00:00:00 [kworker/u16:3]
+root     21800     2 21800     0     0 14:53 00:00:00 [kworker/1:0]
+root     21801     2 21801     0     0 14:53 00:00:00 [kworker/6:0]
+rharish  21841     1 21841  7277   316 14:54 00:00:00 xclip -selection clipboard
+rharish  21924  1767 21924  1484   744 14:54 00:00:00 sleep 50
+rharish  21956  1745 21956  7393  2908 14:54 00:00:00 ps -eLo uname,pid,ppid,lwp,sz,rss,start_time,time,cmd
