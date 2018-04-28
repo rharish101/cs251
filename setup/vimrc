@@ -66,7 +66,6 @@ set updatetime=1000
 
 let g:strip_whitespace_on_save=1           " strip trailing whitespace on save
 let g:livepreview_engine = 'xelatex'       " default pdf engine for latex-preview
-let g:ycm_seed_identifiers_with_syntax = 1 " ycm suggests built-ins
 
 let g:indentLine_showFirstIndentLevel = 1          " show first indent level
 let g:indentLine_first_char = '▏'                  " character for indent lines
@@ -94,7 +93,6 @@ nnoremap <space> za
 
 let g:SimpylFold_docstring_preview=1                  " docstring preview when folded
 let g:fastfold_fold_command_suffixes = []             " fastfold
-let g:ycm_autoclose_preview_window_after_completion=1 " close preview
 " remember folds
 augroup AutoSaveFolds
     autocmd!
