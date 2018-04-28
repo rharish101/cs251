@@ -1,0 +1,154 @@
+set nocompatible
+call pathogen#helptags()
+call pathogen#infect()
+let mapleader=","   " map leader changed to comma
+set showcmd         " show current command, including leader key
+nmap <silent> \ev :e $MYVIMRC<CR>
+nmap <silent> \sv :so $MYVIMRC<CR>
+nmap <F8> :TagbarToggle<CR>
+autocmd FileType python setlocal completeopt-=preview
+filetype plugin on
+
+set encoding=utf-8
+set hidden
+set nowrap          " don't wrap lines
+
+set tabstop=4       " a tab is four spaces
+set shiftwidth=4    " number of spaces to use for autoindenting
+set expandtab       " convert tab to spaces
+set breakindent     " wrap at indents
+set autoindent      " always set autoindenting on
+set copyindent      " copy the previous indentation on autoindenting
+set fileformat=unix " set unix file format
+set splitbelow      " split new windows below current
+set splitright      " split new windows to the right of current
+
+" PEP8 for python
+au BufNewFile,BufRead *.py
+    \ set tabstop=4 |
+    \ set softtabstop=4 |
+    \ set shiftwidth=4 |
+    \ set textwidth=79 |
+    \ set expandtab |
+    \ set autoindent |
+    \ set fileformat=unix |
+" for others
+au BufNewFile,BufRead *.php,*.js,*.html,*.css,*.md
+    \ set tabstop=2 |
+    \ set softtabstop=2 |
+    \ set shiftwidth=2 |
+
+" remove extra whitespace
+highlight BadWhitespace ctermbg=red guibg=red
+au BufRead,BufNewFile *.py,*.pyw,*.c,*.h match BadWhitespace /\s\+$/
+
+" delete without yanking
+" nnoremap <leader>D "_d
+" vnoremap <leader>D "_d
+
+set backspace=indent,eol,start " allow backspacing over everything in insert mode
+set number                     " always show line numbers
+set shiftround                 " use multiple of shiftwidth when indenting with '<' and '>'
+set showmatch                  " set show matching parenthesis
+set ignorecase                 " ignore case when searching
+set smartcase                  " ignore case if search pattern is all lowercase, case-sensitive otherwise
+set smarttab                   " insert tabs on the start of a line according to shiftwidth, not tabstop
+set hlsearch                   " highlight search terms
+set incsearch                  " show search matches as you type
+set history=1000               " remember more commands and search history
+set undolevels=1000            " use many muchos levels of undo
+set visualbell                 " don't beep
+set noerrorbells               " don't beep
+set nrformats=alpha            " create letter sequences
+set undofile                   " Maintain undo history between sessions
+set undodir=/home/rharish/.vim/undodir
+set updatetime=1000
+
+let g:strip_whitespace_on_save=1           " strip trailing whitespace on save
+let g:livepreview_engine = 'xelatex'       " default pdf engine for latex-preview
+let g:ycm_seed_identifiers_with_syntax = 1 " ycm suggests built-ins
+
+let g:indentLine_showFirstIndentLevel = 1          " show first indent level
+let g:indentLine_first_char = '▏'                  " character for indent lines
+let g:indentLine_char = '▏'                        " character for indent lines
+let g:indentLine_bufTypeExclude = ['tex', 'json']  " exclude tex and json files
+let g:indentLine_fileTypeExclude = ['tex', 'json'] " exclude tex and json files
+
+autocmd VimLeave * call system('echo ' . shellescape(getreg('+')) . ' | xclip -selection clipboard')    " Do not erase clipboard
+" normal mode
+:nmap <leader>y "+y     " use ,y to yank to clipboard
+:nmap <leader>Y "+yy    " use ,Y to yank line to clipboard
+:nmap <leader>p "+p     " use ,p to paste from clipboard on a new line after current line a/c to indent
+:nmap <leader><S-p> <S-o><space><ESC>v"+p    " use ,P to paste from clipboard on a new line before current line a/c to indent
+:nmap <leader>d "+d     " use ,d to delete and yank to clipboard
+" visual mode
+:vmap <leader>y "+y    " use ,y to yank to clipboard
+:vmap <leader>Y "+yy    " use ,Y to yank line to clipboard
+:vmap <leader>p "+p    " use ,p to paste from clipboard on a new line after current line a/c to indent
+:vmap <leader><S-p> <S-o><space><ESC>v"+p    " use ,P to paste from clipboard on a new line before current line a/c to indent
+:vmap <leader>d "+d     " use ,d to delete and yank to clipboard
+
+set foldmethod=indent    " allow folding of code
+set foldlevel=99
+nnoremap <space> za
+
+let g:SimpylFold_docstring_preview=1                  " docstring preview when folded
+let g:fastfold_fold_command_suffixes = []             " fastfold
+let g:ycm_autoclose_preview_window_after_completion=1 " close preview
+" remember folds
+augroup AutoSaveFolds
+    autocmd!
+    autocmd BufWinLeave ?* mkview
+    autocmd BufWinEnter ?* silent loadview
+    autocmd BufWinEnter ?* set foldmethod=indent
+augroup END
+
+" python with virtualenv support
+py << EOF
+import os
+import sys
+if 'VIRTUAL_ENV' in os.environ:
+    project_base_dir = os.environ['VIRTUAL_ENV']
+    activate_this = os.path.join(project_base_dir, 'bin/activate_this.py')
+    execfile(activate_this, dict(__file__=activate_this))
+EOF
+
+" auto shebang
+au! BufNewFile * ShebangInsert
+let g:shebang#shebangs = {
+    \ 'awk': '#!/usr/bin/awk -f',
+    \ 'php': '',
+    \ }
+
+if &t_Co >= 256 || has("gui_running")
+    colorscheme sidonia
+endif
+if &t_Co > 2 || has("gui_running")
+    " switch syntax highlighting on, when the terminal has colors
+    syntax on
+endif
+
+" Search for selected text, forwards or backwards.
+vnoremap <silent> * :<C-U>
+    \let old_reg=getreg('"')<Bar>let old_regtype=getregtype('"')<CR>
+    \gvy/<C-R><C-R>=substitute(
+    \escape(@", '/\.*$^~['), '\_s\+', '\\_s\\+', 'g')<CR><CR>
+    \gV:call setreg('"', old_reg, old_regtype)<CR>
+vnoremap <silent> # :<C-U>
+    \let old_reg=getreg('"')<Bar>let old_regtype=getregtype('"')<CR>
+    \gvy?<C-R><C-R>=substitute(
+    \escape(@", '?\.*$^~['), '\_s\+', '\\_s\\+', 'g')<CR><CR>
+    \gV:call setreg('"', old_reg, old_regtype)<CR>
+
+" Change case with ~ key
+function! TwiddleCase(str)
+    if a:str ==# toupper(a:str)
+        let result = tolower(a:str)
+    elseif a:str ==# tolower(a:str)
+        let result = substitute(a:str,'\(\<\w\+\>\)', '\u\1', 'g')
+    else
+        let result = toupper(a:str)
+    endif
+    return result
+endfunction
+vnoremap ~ y:call setreg('', TwiddleCase(@"), getregtype(''))<CR>gv""Pgv
