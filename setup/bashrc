@@ -5,24 +5,6 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
-longcat()
-{
-    if [[ $1 == "" ]]; then
-        cowsay -f ~/.longcat.cow -W 79 $(fortune -as) | lolcat -t
-    else
-        str=""
-        while [[ $1 != "" ]]; do
-            if [[ $str == "" ]]; then
-                str="${str}$1"
-            else
-                str="${str} $1"
-            fi
-            shift
-        done
-        cowsay -f ~/.longcat.cow -W 79 $str | lolcat -t
-    fi
-}
-#longcat
 alias update-grub='grub-mkconfig -o /boot/grub/grub.cfg'
 alias sudo="sudo "
 alias gtop='~/.gmonitor -r 1'
